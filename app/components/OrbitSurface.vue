@@ -16,12 +16,13 @@
             <circle class="ring" cx="230" cy="230" :r="RINGS[1]" />
             <circle class="ring" cx="230" cy="230" :r="RINGS[2]" />
           </svg>
-          <span class="ringlab" :style="{ left: '50%', top: `${(230 - RINGS[0]) / 460 * 100}%` }">strong</span>
-          <span class="ringlab" :style="{ left: '50%', top: `${(230 - RINGS[1]) / 460 * 100}%` }">good</span>
-          <span class="ringlab" :style="{ left: '50%', top: `${(230 - RINGS[2]) / 460 * 100}%` }">stretch</span>
+          <!-- labels at 120° (upper-left) — the only gap between nodes i=5 (150°) and i=0 (90°) -->
+          <span class="ringlab" :style="{ left: `${(230 - RINGS[0] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[0] * 0.866) / 460 * 100}%` }">strong</span>
+          <span class="ringlab" :style="{ left: `${(230 - RINGS[1] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[1] * 0.866) / 460 * 100}%` }">good</span>
+          <span class="ringlab" :style="{ left: `${(230 - RINGS[2] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[2] * 0.866) / 460 * 100}%` }">stretch</span>
 
           <div class="seed live-pop" :key="mingo.seedKey.value">
-            <span class="nm">{{ seedLabel }}</span>
+            <span class="nm" :style="{ fontSize: seedFontSize }">{{ seedLabel }}</span>
             <span class="lb">seed</span>
           </div>
 
@@ -98,7 +99,13 @@ const WAITLIST_AFTER = 3
 const matches   = computed(() => mingo.genome.value?.[mingo.lens.value] ?? FLAVORS[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
 const nodes     = computed(() => layout(matches.value))
 const top4      = computed(() => nodes.value.slice(0, 4))
-const seedLabel = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? '')
+const seedLabel    = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? '')
+const seedFontSize = computed(() => {
+  const len = seedLabel.value.length
+  if (len <= 6) return '32px'
+  if (len <= 9) return '24px'
+  return '19px'
+})
 const lensLabel = computed(() => mingo.lens.value === 'classic' ? 'Classic' : 'Surprising')
 const active    = computed(() => mingo.sel.value ? nodes.value.find(n => n.name === mingo.sel.value) ?? null : null)
 const showWaitlist = computed(() => mingo.explores.value >= WAITLIST_AFTER)
