@@ -84,16 +84,36 @@ def axis_for(key: str, food_groups: dict[str, str]) -> str:
         return AXIS_OVERRIDES[key]
     return FG_AXIS.get(food_groups.get(key, "Other"), "a")
 
-# ── Claude editorial copy ─────────────────────────────────────────────────────
+# ── Editorial copy ────────────────────────────────────────────────────────────
+
+def template_why(partner: str, lens: str, pct: int) -> str:
+    label = display(partner)
+    if lens == "classic":
+        approx = "~1,800" if pct >= 90 else "~700" if pct >= 82 else "~250"
+        return f"paired in {approx} recipes · culinary match"
+    n = "~12" if pct >= 90 else "~8" if pct >= 82 else "~5"
+    return f"shares {n} aroma compounds · flavor overlap"
+
+def template_note(lens: str, pct: int) -> str:
+    if lens == "classic":
+        return "~1,800 recipes" if pct >= 90 else "~700 recipes" if pct >= 82 else "~250 recipes"
+    return "~12 compounds" if pct >= 90 else "~8 compounds" if pct >= 82 else "~5 compounds"
 
 def generate_editorial(pairs: list[dict]) -> list[dict]:
     """
-    Batch-call Claude to generate 'why' and 'note' for each pairing.
-    Each pair: {seed, partner, lens, axis, pct}
-    Returns: [{why, note}] in the same order.
+    Generate why/note copy. Uses Claude if ANTHROPIC_API_KEY is set,
+    otherwise falls back to templates (good enough for pre-production data).
     """
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if api_key:
+        return _claude_editorial(pairs, api_key)
+    print("  (no ANTHROPIC_API_KEY — using template copy; re-run with key for editorial quality)")
+    return [{"why": template_why(p["partner"], p["lens"], p["pct"]),
+             "note": template_note(p["lens"], p["pct"])} for p in pairs]
+
+def _claude_editorial(pairs: list[dict], api_key: str) -> list[dict]:
     import anthropic
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(api_key=api_key)
 
     rows = "\n".join(
         f"{i+1}. seed={display(p['seed'])}, match={display(p['partner'])}, "
@@ -101,19 +121,16 @@ def generate_editorial(pairs: list[dict]) -> list[dict]:
         f"strength={p['pct']}%"
         for i, p in enumerate(pairs)
     )
-
     prompt = f"""You are writing terse editorial copy for a flavor-pairing web toy called Mingo.
-For each pairing, write exactly:
-- why: ≤10 words. Format depends on lens:
-  • classic  → "paired in ~N,NNN recipes · <2-word sensory note>"  (N scales with strength: 94%≈2000+, 80%≈600, 73%≈200)
-  • surprising → "shares ~N aroma compounds · <2-word sensory note>"  (N scales: 94%≈13, 80%≈8, 73%≈5)
-- note: the factoid only, no extra words. Classic: "~N,NNN recipes". Surprising: "~N compounds".
+For each pairing write exactly:
+- why: ≤10 words. Classic → "paired in ~N,NNN recipes · <2-word sensory note>" (N scales: 94%≈2000+, 80%≈600, 73%≈200). Surprising → "shares ~N aroma compounds · <2-word sensory note>" (N: 94%≈13, 80%≈8, 73%≈5).
+- note: factoid only. Classic: "~N,NNN recipes". Surprising: "~N compounds".
 
 Pairings:
 {rows}
 
 Return a JSON array of {len(pairs)} objects: [{{"why":"...","note":"..."}}]
-No markdown fences, just the raw JSON array."""
+Raw JSON only, no markdown fences."""
 
     msg = client.messages.create(
         model="claude-opus-4-8",
