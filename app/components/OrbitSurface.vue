@@ -68,7 +68,7 @@
         </div>
         <div class="rows anim-list" :key="`${mingo.seedKey.value}-${mingo.lens.value}`">
           <div
-            v-for="(n, i) in top4"
+            v-for="(n, i) in railItems"
             :key="n.name"
             class="row-item"
             :style="{ animationDelay: `${i * 60}ms` }"
@@ -110,7 +110,7 @@ const WAITLIST_AFTER = 3
 
 const matches   = computed(() => mingo.genome.value?.[mingo.lens.value] ?? FLAVORS[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
 const nodes     = computed(() => layout(matches.value))
-const top4      = computed(() => nodes.value.slice(0, 4))
+const railItems  = computed(() => nodes.value)
 const seedLabel    = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? '')
 const seedFontSize = computed(() => {
   const len = seedLabel.value.length
