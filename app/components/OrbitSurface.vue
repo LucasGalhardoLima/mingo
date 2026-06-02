@@ -16,22 +16,26 @@
           @mouseenter="hovered = true"
           @mouseleave="hovered = false; mingo.sel.value = null"
         >
-          <!-- rotating wrapper: rings + nodes only -->
-          <div class="orbit-spinner" :style="{ transform: `rotate(${angle}deg)` }">
+          <!-- Three independent spinners — one per ring, each at its own speed -->
+          <div
+            v-for="(ringNodes, r) in nodeGroups"
+            :key="r"
+            class="orbit-spinner"
+            :style="{ transform: `rotate(${angles[r]}deg)` }"
+          >
             <svg viewBox="0 0 460 460">
-              <circle class="ring" cx="230" cy="230" :r="RINGS[0]" />
-              <circle class="ring" cx="230" cy="230" :r="RINGS[1]" />
-              <circle class="ring" cx="230" cy="230" :r="RINGS[2]" />
+              <circle class="ring" cx="230" cy="230" :r="RINGS[r]" />
             </svg>
             <OrbitNode
-              v-for="(n, i) in nodes"
-              :key="`${mingo.seedKey.value}-${i}`"
-              :n="n"
-              :i="i"
+              v-for="{ node, idx } in ringNodes"
+              :key="`${mingo.seedKey.value}-${idx}`"
+              :n="node"
+              :i="idx"
+              :angle="angles[r] ?? 0"
             />
           </div>
 
-          <!-- static: ring labels, seed disc, why popover -->
+          <!-- Static: ring labels, seed disc, why popover -->
           <span class="ringlab" :style="{ left: `${(230 - RINGS[0] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[0] * 0.866) / 460 * 100}%` }">strong</span>
           <span class="ringlab" :style="{ left: `${(230 - RINGS[1] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[1] * 0.866) / 460 * 100}%` }">good</span>
           <span class="ringlab" :style="{ left: `${(230 - RINGS[2] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[2] * 0.866) / 460 * 100}%` }">stretch</span>
@@ -97,7 +101,8 @@
 
 <script setup lang="ts">
 import { FLAVORS } from '~~/shared/flavors'
-import { layout, RINGS, fillClass, seedKeyFor } from '~~/shared/layout'
+import { layout, RINGS, fillClass, seedKeyFor, bucket } from '~~/shared/layout'
+import type { LayoutNode } from '~~/shared/layout'
 
 const mingo = useMingo()
 
@@ -116,8 +121,10 @@ const seedFontSize = computed(() => {
 const lensLabel    = computed(() => mingo.lens.value === 'classic' ? 'Classic' : 'Surprising')
 const showWaitlist = computed(() => mingo.explores.value >= WAITLIST_AFTER)
 
-// ── Solar system orbit ────────────────────────────────────────────────────────
-const angle   = ref(0)     // current rotation in degrees
+// ── Per-ring orbital speeds (inner = fastest, like Kepler) ────────────────────
+const SPEEDS = [0.20, 0.133, 0.10] // °/frame → 30 s / 45 s / 60 s per revolution
+
+const angles  = ref([0, 0, 0])
 const hovered = ref(false)
 let rafId: number | null = null
 
@@ -125,19 +132,36 @@ onMounted(() => {
   if (!import.meta.client) return
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
   const tick = () => {
-    if (!hovered.value) angle.value = (angle.value + 0.15) % 360  // ~40 s/rev at 60 fps
+    if (!hovered.value) {
+      angles.value = [
+        (angles.value[0]! + SPEEDS[0]!) % 360,
+        (angles.value[1]! + SPEEDS[1]!) % 360,
+        (angles.value[2]! + SPEEDS[2]!) % 360,
+      ]
+    }
     rafId = requestAnimationFrame(tick)
   }
   rafId = requestAnimationFrame(tick)
 })
 onUnmounted(() => { if (rafId !== null) cancelAnimationFrame(rafId) })
 
-// Rotate the hovered node's original coords to match the current spinner angle
+// Nodes grouped by which ring they sit on
+const nodeGroups = computed(() => {
+  const groups: Array<Array<{ node: LayoutNode; idx: number }>> = [[], [], []]
+  nodes.value.forEach((node, idx) => {
+    const b = bucket(node.pct)
+    groups[b]!.push({ node, idx })
+  })
+  return groups
+})
+
+// Why-popover position adjusted for the ring-specific rotation angle
 const activeRotated = computed(() => {
   if (!mingo.sel.value) return null
   const node = nodes.value.find(n => n.name === mingo.sel.value)
   if (!node) return null
-  const θ  = angle.value * Math.PI / 180
+  const r = bucket(node.pct)
+  const θ = (angles.value[r] ?? 0) * Math.PI / 180
   const dx = node.x - 230
   const dy = node.y - 230
   return {
