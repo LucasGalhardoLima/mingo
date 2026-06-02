@@ -16,8 +16,8 @@
 </template>
 
 <script setup lang="ts">
-import type { LayoutNode } from '../../shared/layout'
-import { seedKeyFor } from '../../shared/layout'
+import type { LayoutNode } from '~~/shared/layout'
+import { seedKeyFor } from '~~/shared/layout'
 
 const props = defineProps<{ n: LayoutNode; i: number }>()
 

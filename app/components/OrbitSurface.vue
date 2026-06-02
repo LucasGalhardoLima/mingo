@@ -88,8 +88,8 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '../../shared/flavors'
-import { layout, RINGS, fillClass, seedKeyFor } from '../../shared/layout'
+import { FLAVORS } from '~~/shared/flavors'
+import { layout, RINGS, fillClass, seedKeyFor } from '~~/shared/layout'
 
 const mingo = useMingo()
 

@@ -59,7 +59,7 @@
 
 <script setup lang="ts">
 import { toPng } from 'html-to-image'
-import { FLAVORS } from '../../../shared/flavors'
+import { FLAVORS } from '~~/shared/flavors'
 import ShareEditorial from './ShareEditorial.vue'
 import ShareOrbit     from './ShareOrbit.vue'
 import SharePoster    from './SharePoster.vue'

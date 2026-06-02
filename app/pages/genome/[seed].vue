@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '../../../shared/flavors'
+import { FLAVORS } from '~~/shared/flavors'
 
 const route = useRoute()
 const mingo = useMingo()

@@ -27,6 +27,6 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS, SEED_CHIPS } from '../../shared/flavors'
+import { FLAVORS, SEED_CHIPS } from '~~/shared/flavors'
 const mingo = useMingo()
 </script>

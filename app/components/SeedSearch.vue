@@ -58,8 +58,8 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '../../shared/flavors'
-import { resolveQuery } from '../../shared/layout'
+import { FLAVORS } from '~~/shared/flavors'
+import { resolveQuery } from '~~/shared/layout'
 
 defineProps<{ big?: boolean }>()
 

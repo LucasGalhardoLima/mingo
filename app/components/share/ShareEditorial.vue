@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '../../../shared/flavors'
+import { FLAVORS } from '~~/shared/flavors'
 
 const props = defineProps<{ seedKey: string; lens: 'classic' | 'surprising' }>()
 const label = computed(() => FLAVORS[props.seedKey]?.label ?? props.seedKey)

@@ -53,8 +53,8 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '../../../shared/flavors'
-import { layout } from '../../../shared/layout'
+import { FLAVORS } from '~~/shared/flavors'
+import { layout } from '~~/shared/layout'
 
 const props = defineProps<{ seedKey: string; lens: 'classic' | 'surprising' }>()
 

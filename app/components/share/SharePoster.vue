@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '../../../shared/flavors'
+import { FLAVORS } from '~~/shared/flavors'
 
 const props = defineProps<{ seedKey: string; lens: 'classic' | 'surprising' }>()
 

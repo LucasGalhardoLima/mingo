@@ -1,5 +1,5 @@
 import type { InjectionKey, Ref } from 'vue'
-import { FLAVORS } from '../../shared/flavors'
+import { FLAVORS } from '~~/shared/flavors'
 
 type Lens  = 'classic' | 'surprising'
 type Phase = 'results' | 'empty'
