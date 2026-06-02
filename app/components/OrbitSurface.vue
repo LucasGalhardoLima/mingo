@@ -10,13 +10,28 @@
     <div class="orbit-layout">
       <!-- Stage -->
       <div>
-        <div class="stage" style="--stage:460px" @mouseleave="mingo.sel.value = null">
-          <svg viewBox="0 0 460 460">
-            <circle class="ring" cx="230" cy="230" :r="RINGS[0]" />
-            <circle class="ring" cx="230" cy="230" :r="RINGS[1]" />
-            <circle class="ring" cx="230" cy="230" :r="RINGS[2]" />
-          </svg>
-          <!-- labels at 120° (upper-left) — the only gap between nodes i=5 (150°) and i=0 (90°) -->
+        <div
+          class="stage"
+          style="--stage:460px"
+          @mouseenter="hovered = true"
+          @mouseleave="hovered = false; mingo.sel.value = null"
+        >
+          <!-- rotating wrapper: rings + nodes only -->
+          <div class="orbit-spinner" :style="{ transform: `rotate(${angle}deg)` }">
+            <svg viewBox="0 0 460 460">
+              <circle class="ring" cx="230" cy="230" :r="RINGS[0]" />
+              <circle class="ring" cx="230" cy="230" :r="RINGS[1]" />
+              <circle class="ring" cx="230" cy="230" :r="RINGS[2]" />
+            </svg>
+            <OrbitNode
+              v-for="(n, i) in nodes"
+              :key="`${mingo.seedKey.value}-${i}`"
+              :n="n"
+              :i="i"
+            />
+          </div>
+
+          <!-- static: ring labels, seed disc, why popover -->
           <span class="ringlab" :style="{ left: `${(230 - RINGS[0] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[0] * 0.866) / 460 * 100}%` }">strong</span>
           <span class="ringlab" :style="{ left: `${(230 - RINGS[1] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[1] * 0.866) / 460 * 100}%` }">good</span>
           <span class="ringlab" :style="{ left: `${(230 - RINGS[2] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[2] * 0.866) / 460 * 100}%` }">stretch</span>
@@ -26,24 +41,16 @@
             <span class="lb">seed</span>
           </div>
 
-          <OrbitNode
-            v-for="(n, i) in nodes"
-            :key="`${mingo.seedKey.value}-${i}`"
-            :n="n"
-            :i="i"
-          />
-
-          <!-- why popover -->
           <div
-            v-if="active"
+            v-if="activeRotated"
             class="why show"
             :style="{
-              left:  `${active.x / 460 * 100}%`,
-              top:   `${(active.y - 26) / 460 * 100}%`,
+              left: `${activeRotated.x / 460 * 100}%`,
+              top:  `${(activeRotated.y - 26) / 460 * 100}%`,
             }"
           >
             <div class="wh">{{ lensLabel }} · why</div>
-            <div class="wt">{{ active.why }}.</div>
+            <div class="wt">{{ activeRotated.why }}.</div>
           </div>
         </div>
       </div>
@@ -106,9 +113,39 @@ const seedFontSize = computed(() => {
   if (len <= 9) return '24px'
   return '19px'
 })
-const lensLabel = computed(() => mingo.lens.value === 'classic' ? 'Classic' : 'Surprising')
-const active    = computed(() => mingo.sel.value ? nodes.value.find(n => n.name === mingo.sel.value) ?? null : null)
+const lensLabel    = computed(() => mingo.lens.value === 'classic' ? 'Classic' : 'Surprising')
 const showWaitlist = computed(() => mingo.explores.value >= WAITLIST_AFTER)
+
+// ── Solar system orbit ────────────────────────────────────────────────────────
+const angle   = ref(0)     // current rotation in degrees
+const hovered = ref(false)
+let rafId: number | null = null
+
+onMounted(() => {
+  if (!import.meta.client) return
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+  const tick = () => {
+    if (!hovered.value) angle.value = (angle.value + 0.15) % 360  // ~40 s/rev at 60 fps
+    rafId = requestAnimationFrame(tick)
+  }
+  rafId = requestAnimationFrame(tick)
+})
+onUnmounted(() => { if (rafId !== null) cancelAnimationFrame(rafId) })
+
+// Rotate the hovered node's original coords to match the current spinner angle
+const activeRotated = computed(() => {
+  if (!mingo.sel.value) return null
+  const node = nodes.value.find(n => n.name === mingo.sel.value)
+  if (!node) return null
+  const θ  = angle.value * Math.PI / 180
+  const dx = node.x - 230
+  const dy = node.y - 230
+  return {
+    ...node,
+    x: 230 + dx * Math.cos(θ) - dy * Math.sin(θ),
+    y: 230 + dx * Math.sin(θ) + dy * Math.cos(θ),
+  }
+})
 
 function onRowClick(name: string) {
   const k = seedKeyFor(name)
@@ -117,14 +154,10 @@ function onRowClick(name: string) {
 </script>
 
 <style scoped>
-.stage svg {
-  animation: orbit-spin 40s linear infinite;
+.orbit-spinner {
+  position: absolute;
+  inset: 0;
   transform-origin: center;
-}
-.stage:hover svg {
-  animation-play-state: paused;
-}
-@keyframes orbit-spin {
-  to { transform: rotate(360deg); }
+  will-change: transform;
 }
 </style>
