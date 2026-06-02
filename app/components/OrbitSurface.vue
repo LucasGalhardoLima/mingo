@@ -115,3 +115,16 @@ function onRowClick(name: string) {
   if (k) mingo.pickSeed(k)
 }
 </script>
+
+<style scoped>
+.stage svg {
+  animation: orbit-spin 40s linear infinite;
+  transform-origin: center;
+}
+.stage:hover svg {
+  animation-play-state: paused;
+}
+@keyframes orbit-spin {
+  to { transform: rotate(360deg); }
+}
+</style>

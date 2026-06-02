@@ -181,6 +181,7 @@ body{
 @media (prefers-reduced-motion: reduce){
   .anim-list .row-item,.anim-list .row-card,.stage .live-pop,.ed-seed.live-pop{animation:none;}
   .node{transition:none !important;}
+  .stage svg{animation:none;}
 }
 
 /* ---------- responsive surface toggle ---------- */
