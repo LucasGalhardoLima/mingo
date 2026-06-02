@@ -7,42 +7,42 @@
           "name": "Apricot",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · stone-fruit kin",
           "note": "~1,800 recipes"
         },
         {
           "name": "Pear",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · soft autumn sweet",
           "note": "~250 recipes"
         },
         {
           "name": "Edible Flower",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · floral elegance",
           "note": "~250 recipes"
         },
         {
           "name": "Hazelnut",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · rich nuttiness",
           "note": "~250 recipes"
         },
         {
           "name": "Quinoa",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · grain contrast",
           "note": "~250 recipes"
         },
         {
           "name": "Date",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · honeyed depth",
           "note": "~250 recipes"
         }
       ],
@@ -51,42 +51,42 @@
           "name": "Date",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · honeyed fruit",
           "note": "~12 compounds"
         },
         {
           "name": "Bitter Almond",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · floral nuttiness",
           "note": "~8 compounds"
         },
         {
           "name": "Sea Coconut",
           "pct": 82,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · tropical sweet",
           "note": "~8 compounds"
         },
         {
           "name": "Red Date",
           "pct": 79,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · caramel fruit",
           "note": "~5 compounds"
         },
         {
           "name": "Longan",
           "pct": 77,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · floral honey",
           "note": "~5 compounds"
         },
         {
           "name": "Tiger Milk Mushroom",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · earthy sweet",
           "note": "~5 compounds"
         }
       ]
@@ -98,42 +98,42 @@
           "name": "Cocoa Powder",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · roasty depth",
           "note": "~1,800 recipes"
         },
         {
           "name": "Chocolate",
           "pct": 89,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · bitter kin",
           "note": "~700 recipes"
         },
         {
           "name": "Rum",
           "pct": 85,
           "axis": "r",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · dark warmth",
           "note": "~700 recipes"
         },
         {
           "name": "Coffee Liqueur",
           "pct": 83,
           "axis": "r",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · double roast",
           "note": "~700 recipes"
         },
         {
           "name": "Vanilla",
           "pct": 83,
           "axis": "r",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · cream balance",
           "note": "~700 recipes"
         },
         {
           "name": "Cacao",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · raw bitter",
           "note": "~250 recipes"
         }
       ],
@@ -142,42 +142,42 @@
           "name": "Coffee Liqueur",
           "pct": 94,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · caramel pyrazine",
           "note": "~12 compounds"
         },
         {
           "name": "Chocolate",
           "pct": 79,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · roasty overlap",
           "note": "~5 compounds"
         },
         {
           "name": "Irish Cream",
           "pct": 78,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · creamy bitter",
           "note": "~5 compounds"
         },
         {
           "name": "Cacao",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · raw roast",
           "note": "~5 compounds"
         },
         {
           "name": "Chocolate Liqueur",
           "pct": 77,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · sweet dark",
           "note": "~5 compounds"
         },
         {
           "name": "Ladyfinger",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · soaked sponge",
           "note": "~5 compounds"
         }
       ]
@@ -189,42 +189,42 @@
           "name": "Raspberry",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · berry twins",
           "note": "~1,800 recipes"
         },
         {
           "name": "Blueberry",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · mixed berry",
           "note": "~250 recipes"
         },
         {
           "name": "Ice Cream",
           "pct": 77,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · cold sweet",
           "note": "~250 recipes"
         },
         {
           "name": "Banana",
           "pct": 75,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · tropical blend",
           "note": "~250 recipes"
         },
         {
           "name": "Blackberry",
           "pct": 74,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · dark berry lift",
           "note": "~250 recipes"
         },
         {
           "name": "Rum",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · boozy sweet",
           "note": "~250 recipes"
         }
       ],
@@ -233,42 +233,42 @@
           "name": "Cream",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · ester overlap",
           "note": "~12 compounds"
         },
         {
           "name": "Gelatin",
           "pct": 87,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · set dessert",
           "note": "~8 compounds"
         },
         {
           "name": "Peach",
           "pct": 86,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · summer stone",
           "note": "~8 compounds"
         },
         {
           "name": "Apple",
           "pct": 79,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · shared esters",
           "note": "~5 compounds"
         },
         {
           "name": "Raspberry",
           "pct": 75,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · berry aldehydes",
           "note": "~5 compounds"
         },
         {
           "name": "Pineapple",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · tropical ester",
           "note": "~5 compounds"
         }
       ]
@@ -280,42 +280,42 @@
           "name": "Parsley",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · herb duo",
           "note": "~1,800 recipes"
         },
         {
           "name": "Olive Oil",
           "pct": 91,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · Mediterranean base",
+          "note": "~700 recipes"
         },
         {
           "name": "Parmesan Cheese",
           "pct": 91,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · Italian classic",
+          "note": "~700 recipes"
         },
         {
           "name": "Black Pepper",
           "pct": 85,
           "axis": "r",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · pungent lift",
           "note": "~700 recipes"
         },
         {
           "name": "White Wine",
           "pct": 78,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · bright acid",
           "note": "~250 recipes"
         },
         {
           "name": "Thyme",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · herb accord",
           "note": "~250 recipes"
         }
       ],
@@ -324,42 +324,42 @@
           "name": "Tarragon",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · anise kin",
           "note": "~12 compounds"
         },
         {
           "name": "Oregano",
           "pct": 92,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · Mediterranean overlap",
           "note": "~12 compounds"
         },
         {
           "name": "Rosemary",
           "pct": 89,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · terpene family",
           "note": "~8 compounds"
         },
         {
           "name": "Pasta",
           "pct": 79,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · pesto target",
           "note": "~5 compounds"
         },
         {
           "name": "Fennel",
           "pct": 75,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · anise overlap",
           "note": "~5 compounds"
         },
         {
           "name": "Zucchini",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · summer green",
           "note": "~5 compounds"
         }
       ]
@@ -371,42 +371,42 @@
           "name": "Sake",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · fermented grain",
           "note": "~1,800 recipes"
         },
         {
           "name": "Snow Pea",
           "pct": 83,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · spring fresh",
           "note": "~700 recipes"
         },
         {
           "name": "Mirin",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
-          "note": "~250 recipes"
+          "why": "paired in ~700 recipes · sweet umami",
+          "note": "~700 recipes"
         },
         {
           "name": "Shichimi Togarashi",
           "pct": 78,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · heat contrast",
           "note": "~250 recipes"
         },
         {
           "name": "Fried Tofu Puff",
           "pct": 77,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · sponge umami",
           "note": "~250 recipes"
         },
         {
           "name": "Bonito Flakes",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · dashi depth",
           "note": "~250 recipes"
         }
       ],
@@ -415,42 +415,42 @@
           "name": "Octopus",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · sea umami",
           "note": "~12 compounds"
         },
         {
           "name": "Kombu",
           "pct": 90,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · glutamate stack",
           "note": "~12 compounds"
         },
         {
           "name": "Natto",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · fermented deep",
           "note": "~8 compounds"
         },
         {
           "name": "Tofu",
           "pct": 82,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · soy kin",
           "note": "~8 compounds"
         },
         {
           "name": "Wakame",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · marine soft",
           "note": "~5 compounds"
         },
         {
           "name": "Soy Milk",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · soy core",
           "note": "~5 compounds"
         }
       ]
@@ -462,42 +462,42 @@
           "name": "Chili Pepper",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · heat anchor",
           "note": "~1,800 recipes"
         },
         {
           "name": "Salt",
           "pct": 87,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · seasoning base",
           "note": "~700 recipes"
         },
         {
           "name": "Tomato",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · sofrito start",
           "note": "~250 recipes"
         },
         {
           "name": "Onion",
           "pct": 75,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · aromatic twin",
           "note": "~250 recipes"
         },
         {
           "name": "Oil",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · infused base",
           "note": "~250 recipes"
         },
         {
           "name": "Black Pepper",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · pungent accord",
           "note": "~250 recipes"
         }
       ],
@@ -506,42 +506,42 @@
           "name": "Chive",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · allium family",
           "note": "~12 compounds"
         },
         {
           "name": "Shallot",
           "pct": 92,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · allium kin",
           "note": "~12 compounds"
         },
         {
           "name": "Onion",
           "pct": 89,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · thiosulfinate bond",
           "note": "~8 compounds"
         },
         {
           "name": "Leek",
           "pct": 88,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · sulfur allium",
           "note": "~8 compounds"
         },
         {
           "name": "Scallion",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · sharp green",
           "note": "~5 compounds"
         },
         {
           "name": "Shiitake Mushroom",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · earthy sulfur",
           "note": "~5 compounds"
         }
       ]
@@ -553,42 +553,42 @@
           "name": "Light Soy Sauce",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · East Asian base",
           "note": "~1,800 recipes"
         },
         {
           "name": "Soy Sauce",
           "pct": 83,
           "axis": "r",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · umami heat",
           "note": "~700 recipes"
         },
         {
           "name": "Sesame Oil",
           "pct": 82,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · toasted warmth",
           "note": "~700 recipes"
         },
         {
           "name": "Msg",
           "pct": 80,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · umami boost",
           "note": "~250 recipes"
         },
         {
           "name": "Birds Eye Chili",
           "pct": 78,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · heat stack",
           "note": "~250 recipes"
         },
         {
           "name": "Sichuan Peppercorn",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · numbing spice",
           "note": "~250 recipes"
         }
       ],
@@ -597,42 +597,42 @@
           "name": "Scallion",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · zingy green",
           "note": "~12 compounds"
         },
         {
           "name": "Shaoxing Wine",
           "pct": 92,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · fermented warmth",
           "note": "~12 compounds"
         },
         {
           "name": "Star Anise",
           "pct": 83,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · spice bridge",
           "note": "~8 compounds"
         },
         {
           "name": "Ginkgo Nut",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · bitter resin",
           "note": "~5 compounds"
         },
         {
           "name": "Tofu",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · mild canvas",
           "note": "~5 compounds"
         },
         {
           "name": "Sichuan Peppercorn",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · numbing citrus",
           "note": "~5 compounds"
         }
       ]
@@ -644,42 +644,42 @@
           "name": "Tomato",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · sofrito soul",
           "note": "~1,800 recipes"
         },
         {
           "name": "Paprika",
           "pct": 91,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · sweet heat",
+          "note": "~700 recipes"
         },
         {
           "name": "Garlic",
           "pct": 82,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · aromatic base",
           "note": "~700 recipes"
         },
         {
           "name": "Parsley",
           "pct": 78,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · herb finish",
           "note": "~250 recipes"
         },
         {
           "name": "Black Pepper",
           "pct": 74,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · spice layer",
           "note": "~250 recipes"
         },
         {
           "name": "Thyme",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · slow simmer",
           "note": "~250 recipes"
         }
       ],
@@ -688,42 +688,42 @@
           "name": "Garlic",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · allium twins",
           "note": "~12 compounds"
         },
         {
           "name": "Chive",
           "pct": 90,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · thiosulfinate kin",
           "note": "~12 compounds"
         },
         {
           "name": "Leek",
           "pct": 81,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · sweet allium",
+          "note": "~8 compounds"
         },
         {
           "name": "Shallot",
           "pct": 81,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · delicate allium",
+          "note": "~8 compounds"
         },
         {
           "name": "Zucchini",
           "pct": 74,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · summer vegetal",
           "note": "~5 compounds"
         },
         {
           "name": "Bell Pepper",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · sweet vegetal",
           "note": "~5 compounds"
         }
       ]
@@ -735,42 +735,42 @@
           "name": "Orange",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · citrus kin",
           "note": "~1,800 recipes"
         },
         {
           "name": "Mint",
           "pct": 88,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · bright fresh",
           "note": "~700 recipes"
         },
         {
           "name": "Rosemary",
           "pct": 86,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · herb lift",
           "note": "~700 recipes"
         },
         {
           "name": "Cherry",
           "pct": 85,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · tart fruit",
           "note": "~700 recipes"
         },
         {
           "name": "Mustard",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · sharp acid",
           "note": "~250 recipes"
         },
         {
           "name": "White Wine",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · acid mirror",
           "note": "~250 recipes"
         }
       ],
@@ -779,42 +779,42 @@
           "name": "Lime",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · limonene twins",
           "note": "~12 compounds"
         },
         {
           "name": "Clementine",
           "pct": 88,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · citral kin",
           "note": "~8 compounds"
         },
         {
           "name": "Orange",
           "pct": 87,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · citrus terpene",
           "note": "~8 compounds"
         },
         {
           "name": "Pomegranate",
           "pct": 80,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · tart overlap",
           "note": "~5 compounds"
         },
         {
           "name": "Parsley",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · green citrus",
           "note": "~5 compounds"
         },
         {
           "name": "Cardamom",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · citrus spice",
           "note": "~5 compounds"
         }
       ]
@@ -826,42 +826,42 @@
           "name": "Onion",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · sauce foundation",
           "note": "~1,800 recipes"
         },
         {
           "name": "Parsley",
           "pct": 90,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · green brightness",
+          "note": "~700 recipes"
         },
         {
           "name": "Garlic",
           "pct": 85,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · Italian holy trio",
           "note": "~700 recipes"
         },
         {
           "name": "Olive Oil",
           "pct": 83,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · Mediterranean pull",
           "note": "~700 recipes"
         },
         {
           "name": "Bell Pepper",
           "pct": 78,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · sweet vegetal",
           "note": "~250 recipes"
         },
         {
           "name": "Black Pepper",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · sharp seasoning",
           "note": "~250 recipes"
         }
       ],
@@ -870,42 +870,42 @@
           "name": "Bean",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · green vegetal",
           "note": "~12 compounds"
         },
         {
           "name": "Bell Pepper",
           "pct": 92,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · pyrazine family",
           "note": "~12 compounds"
         },
         {
           "name": "Red Pepper",
           "pct": 91,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
-          "note": "~12 compounds"
+          "why": "shares ~8 aroma compounds · carotenoid kin",
+          "note": "~8 compounds"
         },
         {
           "name": "Tortilla",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · corn sweet",
           "note": "~8 compounds"
         },
         {
           "name": "Onion",
           "pct": 80,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · sulfur vegetal",
           "note": "~5 compounds"
         },
         {
           "name": "Kidney Bean",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · legume green",
           "note": "~5 compounds"
         }
       ]
@@ -917,42 +917,42 @@
           "name": "Olive Oil",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · sauté base",
           "note": "~1,800 recipes"
         },
         {
           "name": "Chive",
           "pct": 92,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · mild onion lift",
+          "note": "~700 recipes"
         },
         {
           "name": "Italian Seasoning",
           "pct": 88,
           "axis": "r",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · herb blend",
           "note": "~700 recipes"
         },
         {
           "name": "Black Pepper",
           "pct": 86,
           "axis": "r",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · earthy heat",
           "note": "~700 recipes"
         },
         {
           "name": "Carrot",
           "pct": 84,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · root duo",
           "note": "~700 recipes"
         },
         {
           "name": "Onion",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · aromatic start",
           "note": "~250 recipes"
         }
       ],
@@ -961,42 +961,42 @@
           "name": "Pasta",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · carbonyl match",
           "note": "~12 compounds"
         },
         {
           "name": "Swiss Cheese",
           "pct": 92,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · umami overlap",
           "note": "~12 compounds"
         },
         {
           "name": "Zucchini",
           "pct": 80,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · vegetal earthy",
           "note": "~5 compounds"
         },
         {
           "name": "Egg Noodle",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · wheat earthy",
           "note": "~5 compounds"
         },
         {
           "name": "Bread",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · yeast umami",
           "note": "~5 compounds"
         },
         {
           "name": "Beef",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · savory depth",
           "note": "~5 compounds"
         }
       ]
@@ -1008,42 +1008,42 @@
           "name": "Lettuce",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · salad anchor",
           "note": "~1,800 recipes"
         },
         {
           "name": "Arugula",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · peppery green",
           "note": "~250 recipes"
         },
         {
           "name": "Bread",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · toast canvas",
           "note": "~250 recipes"
         },
         {
           "name": "Black Pepper",
           "pct": 74,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · sharp contrast",
           "note": "~250 recipes"
         },
         {
           "name": "Monterey Jack Cheese",
           "pct": 74,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · creamy melt",
           "note": "~250 recipes"
         },
         {
           "name": "Salmon",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · fat on fat",
           "note": "~250 recipes"
         }
       ],
@@ -1052,42 +1052,42 @@
           "name": "Tortilla",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · Mesoamerican kin",
           "note": "~12 compounds"
         },
         {
           "name": "Quinoa",
           "pct": 82,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · South American pair",
           "note": "~8 compounds"
         },
         {
           "name": "Tomatillo",
           "pct": 81,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · green vegetal",
+          "note": "~8 compounds"
         },
         {
           "name": "Jicama",
           "pct": 80,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · crisp fresh",
           "note": "~5 compounds"
         },
         {
           "name": "Nopal",
           "pct": 78,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · Mexican trio",
           "note": "~5 compounds"
         },
         {
           "name": "Epazote",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · herbal green",
           "note": "~5 compounds"
         }
       ]
@@ -1099,42 +1099,42 @@
           "name": "Pea",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · garden pair",
           "note": "~1,800 recipes"
         },
         {
           "name": "Cabbage",
           "pct": 79,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · slaw classic",
           "note": "~250 recipes"
         },
         {
           "name": "Sesame Oil",
           "pct": 79,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · East Asian roast",
           "note": "~250 recipes"
         },
         {
           "name": "Mushroom",
           "pct": 78,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · earthy root",
           "note": "~250 recipes"
         },
         {
           "name": "Chicken",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · braise base",
           "note": "~250 recipes"
         },
         {
           "name": "Rice",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · pilaf balance",
           "note": "~250 recipes"
         }
       ],
@@ -1143,42 +1143,42 @@
           "name": "Pea",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · pyrazine twins",
           "note": "~12 compounds"
         },
         {
           "name": "Celery",
           "pct": 87,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · root vegetal",
           "note": "~8 compounds"
         },
         {
           "name": "Zucchini",
           "pct": 81,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · summer vegetal",
+          "note": "~8 compounds"
         },
         {
           "name": "Nori",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · sweet marine",
           "note": "~5 compounds"
         },
         {
           "name": "Parsnip",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · root family",
           "note": "~5 compounds"
         },
         {
           "name": "Bok Choy",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · Asian green",
           "note": "~5 compounds"
         }
       ]
@@ -1190,42 +1190,42 @@
           "name": "Black Pepper",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · wilted seasoning",
           "note": "~1,800 recipes"
         },
         {
           "name": "Olive Oil",
           "pct": 89,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · sauté standard",
           "note": "~700 recipes"
         },
         {
           "name": "Parsley",
           "pct": 80,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · green duet",
           "note": "~250 recipes"
         },
         {
           "name": "Salad Greens",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · leaf blend",
           "note": "~250 recipes"
         },
         {
           "name": "Goat Cheese",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · tangy cream",
           "note": "~250 recipes"
         },
         {
           "name": "Cabbage",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · brassica kin",
           "note": "~250 recipes"
         }
       ],
@@ -1234,42 +1234,42 @@
           "name": "Swiss Chard",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · leafy green kin",
           "note": "~12 compounds"
         },
         {
           "name": "Zucchini",
           "pct": 91,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · chlorophyll overlap",
           "note": "~12 compounds"
         },
         {
           "name": "Pasta",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · green sauce",
           "note": "~8 compounds"
         },
         {
           "name": "Canola Oil",
           "pct": 81,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · neutral fat",
+          "note": "~8 compounds"
         },
         {
           "name": "Ricotta Cheese",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · mild dairy",
           "note": "~5 compounds"
         },
         {
           "name": "Kale",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · bitter green",
           "note": "~5 compounds"
         }
       ]
@@ -1281,42 +1281,42 @@
           "name": "Garlic",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · universal base",
           "note": "~1,800 recipes"
         },
         {
           "name": "Onion",
           "pct": 84,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · roast anchor",
           "note": "~700 recipes"
         },
         {
           "name": "Black Pepper",
           "pct": 81,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
-          "note": "~250 recipes"
+          "why": "paired in ~700 recipes · seasoning backbone",
+          "note": "~700 recipes"
         },
         {
           "name": "Turkey",
           "pct": 78,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · poultry kin",
           "note": "~250 recipes"
         },
         {
           "name": "Carrot",
           "pct": 76,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · braise comfort",
           "note": "~250 recipes"
         },
         {
           "name": "Chicken Broth",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · stock deepen",
           "note": "~250 recipes"
         }
       ],
@@ -1325,42 +1325,42 @@
           "name": "Beef",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · Maillard cousins",
           "note": "~12 compounds"
         },
         {
           "name": "Pork",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · roast amino",
           "note": "~8 compounds"
         },
         {
           "name": "Cream Of Chicken Soup",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · cooked poultry",
+          "note": "~8 compounds"
         },
         {
           "name": "Buffalo Wing Sauce",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · acetic heat",
           "note": "~5 compounds"
         },
         {
           "name": "Peanut",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · satay amino",
           "note": "~5 compounds"
         },
         {
           "name": "Shrimp",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · Maillard marine",
           "note": "~5 compounds"
         }
       ]
@@ -1372,42 +1372,42 @@
           "name": "Wasabi",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · sushi icon",
           "note": "~1,800 recipes"
         },
         {
           "name": "Avocado",
           "pct": 79,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · omega pairing",
           "note": "~250 recipes"
         },
         {
           "name": "Ponzu",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · citrus umami",
           "note": "~250 recipes"
         },
         {
           "name": "Balsamic Vinegar",
           "pct": 74,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · acid glaze",
           "note": "~250 recipes"
         },
         {
           "name": "Scallop",
           "pct": 74,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · seafood duo",
           "note": "~250 recipes"
         },
         {
           "name": "Fish Roe",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · ocean luxury",
           "note": "~250 recipes"
         }
       ],
@@ -1416,42 +1416,42 @@
           "name": "Ham",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · cured protein",
           "note": "~12 compounds"
         },
         {
           "name": "Trout",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · freshwater kin",
           "note": "~5 compounds"
         },
         {
           "name": "Tuna",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · omega fatty",
           "note": "~5 compounds"
         },
         {
           "name": "Cod",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · white fish",
           "note": "~5 compounds"
         },
         {
           "name": "Miso",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · fermented umami",
           "note": "~5 compounds"
         },
         {
           "name": "Wasabi",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · isothiocyanate",
           "note": "~5 compounds"
         }
       ]
@@ -1463,42 +1463,42 @@
           "name": "Flour",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · baking bond",
           "note": "~1,800 recipes"
         },
         {
           "name": "Egg Yolk",
           "pct": 84,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · double yolk",
           "note": "~700 recipes"
         },
         {
           "name": "Milk",
           "pct": 82,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · dairy trio",
           "note": "~700 recipes"
         },
         {
           "name": "Baking Powder",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
-          "note": "~250 recipes"
+          "why": "paired in ~700 recipes · lift agent",
+          "note": "~700 recipes"
         },
         {
           "name": "Vanilla",
           "pct": 74,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · custard base",
           "note": "~250 recipes"
         },
         {
           "name": "Condensed Milk",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · sweet dense",
           "note": "~250 recipes"
         }
       ],
@@ -1507,42 +1507,42 @@
           "name": "Baking Powder",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · leavening pair",
           "note": "~12 compounds"
         },
         {
           "name": "Baking Soda",
           "pct": 88,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · alkaline lift",
           "note": "~8 compounds"
         },
         {
           "name": "Egg Yolk",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · lecithin kin",
+          "note": "~8 compounds"
         },
         {
           "name": "Brown Sugar",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · Maillard sweet",
           "note": "~5 compounds"
         },
         {
           "name": "Vegetable Oil",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · fat emulsify",
           "note": "~5 compounds"
         },
         {
           "name": "Graham Flour",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · whole wheat",
           "note": "~5 compounds"
         }
       ]
@@ -1554,42 +1554,42 @@
           "name": "Cream",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · dairy duo",
           "note": "~1,800 recipes"
         },
         {
           "name": "Egg Yolk",
           "pct": 88,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · hollandaise base",
           "note": "~700 recipes"
         },
         {
           "name": "Flour",
           "pct": 83,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · roux foundation",
           "note": "~700 recipes"
         },
         {
           "name": "Milk",
           "pct": 82,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · beurre blanc",
           "note": "~700 recipes"
         },
         {
           "name": "Almond",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · frangipane",
           "note": "~250 recipes"
         },
         {
           "name": "Thyme",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · basted warmth",
           "note": "~250 recipes"
         }
       ],
@@ -1598,42 +1598,42 @@
           "name": "Milk",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · dairy fat",
           "note": "~12 compounds"
         },
         {
           "name": "Flour",
           "pct": 79,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · baked crust",
           "note": "~5 compounds"
         },
         {
           "name": "Egg",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · emulsion kin",
           "note": "~5 compounds"
         },
         {
           "name": "Chocolate",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · ganache base",
           "note": "~5 compounds"
         },
         {
           "name": "Parmesan Cheese",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · fat depth",
           "note": "~5 compounds"
         },
         {
           "name": "Pastry",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · flaky matrix",
           "note": "~5 compounds"
         }
       ]
@@ -1645,42 +1645,42 @@
           "name": "Butter",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · dairy soul",
           "note": "~1,800 recipes"
         },
         {
           "name": "Egg Yolk",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
-          "note": "~250 recipes"
+          "why": "paired in ~700 recipes · crème brûlée",
+          "note": "~700 recipes"
         },
         {
           "name": "Gelatin",
           "pct": 78,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · panna cotta",
           "note": "~250 recipes"
         },
         {
           "name": "Ice Cream",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · frozen rich",
           "note": "~250 recipes"
         },
         {
           "name": "Brandy",
           "pct": 75,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · flambé base",
           "note": "~250 recipes"
         },
         {
           "name": "Cookie",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · cream filling",
           "note": "~250 recipes"
         }
       ],
@@ -1689,42 +1689,42 @@
           "name": "Gelatin",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · set texture",
           "note": "~12 compounds"
         },
         {
           "name": "Chocolate",
           "pct": 88,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · ganache overlap",
           "note": "~8 compounds"
         },
         {
           "name": "Meringue",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · sweet fat",
           "note": "~8 compounds"
         },
         {
           "name": "Ice Cream",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · dairy frozen",
           "note": "~8 compounds"
         },
         {
           "name": "Cocoa Powder",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · dark fat",
           "note": "~5 compounds"
         },
         {
           "name": "Sugar",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · sweet dairy",
           "note": "~5 compounds"
         }
       ]
@@ -1736,42 +1736,42 @@
           "name": "Mozzarella Cheese",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · Italian stretchy",
           "note": "~1,800 recipes"
         },
         {
           "name": "Mayonnaise",
           "pct": 91,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · creamy blend",
+          "note": "~700 recipes"
         },
         {
           "name": "Onion",
           "pct": 82,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · savory base",
           "note": "~700 recipes"
         },
         {
           "name": "Black Pepper",
           "pct": 82,
           "axis": "r",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · sharp contrast",
           "note": "~700 recipes"
         },
         {
           "name": "Olive Oil",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · Mediterranean drizzle",
           "note": "~250 recipes"
         },
         {
           "name": "Mushroom",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · earthy umami",
           "note": "~250 recipes"
         }
       ],
@@ -1780,42 +1780,42 @@
           "name": "Mozzarella Cheese",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · milk protein",
           "note": "~12 compounds"
         },
         {
           "name": "Muenster Cheese",
           "pct": 91,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · washed rind",
           "note": "~12 compounds"
         },
         {
           "name": "Cheddar Cheese",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · aged fat",
+          "note": "~8 compounds"
         },
         {
           "name": "Cottage Cheese",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · fresh curd",
+          "note": "~8 compounds"
         },
         {
           "name": "Feta Cheese",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · brined tang",
           "note": "~5 compounds"
         },
         {
           "name": "Goat Cheese",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · capric acid",
           "note": "~5 compounds"
         }
       ]
@@ -1827,42 +1827,42 @@
           "name": "Parsley",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · gremolata base",
           "note": "~1,800 recipes"
         },
         {
           "name": "Tomato",
           "pct": 86,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · bruschetta soul",
           "note": "~700 recipes"
         },
         {
           "name": "Arugula",
           "pct": 83,
           "axis": "g",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · peppery salad",
           "note": "~700 recipes"
         },
         {
           "name": "Basil",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
-          "note": "~250 recipes"
+          "why": "paired in ~700 recipes · pesto heart",
+          "note": "~700 recipes"
         },
         {
           "name": "Bread",
           "pct": 79,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · dipping classic",
           "note": "~250 recipes"
         },
         {
           "name": "Caper",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · briny punch",
           "note": "~250 recipes"
         }
       ],
@@ -1871,42 +1871,42 @@
           "name": "Red Onion",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · vegetal aldehydes",
           "note": "~12 compounds"
         },
         {
           "name": "Balsamic Vinegar",
           "pct": 91,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · polyphenol pair",
           "note": "~12 compounds"
         },
         {
           "name": "Red Wine Vinegar",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · acid kin",
           "note": "~8 compounds"
         },
         {
           "name": "Cayenne Pepper",
           "pct": 78,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · fat-soluble heat",
           "note": "~5 compounds"
         },
         {
           "name": "White Wine Vinegar",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · bright acid",
           "note": "~5 compounds"
         },
         {
           "name": "Sherry Vinegar",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · oxidative depth",
           "note": "~5 compounds"
         }
       ]
@@ -1918,42 +1918,42 @@
           "name": "Apple",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · orchard sweet",
           "note": "~1,800 recipes"
         },
         {
           "name": "Gelatin",
           "pct": 80,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · jelly preserve",
           "note": "~250 recipes"
         },
         {
           "name": "Blueberry",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · wild sweet",
           "note": "~250 recipes"
         },
         {
           "name": "Cherry",
           "pct": 79,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · stone-fruit glaze",
           "note": "~250 recipes"
         },
         {
           "name": "Vanilla",
           "pct": 76,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · blossom warmth",
           "note": "~250 recipes"
         },
         {
           "name": "Cinnamon",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · spiced drizzle",
           "note": "~250 recipes"
         }
       ],
@@ -1962,42 +1962,42 @@
           "name": "Pear",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · floral ester",
           "note": "~12 compounds"
         },
         {
           "name": "Apple",
           "pct": 89,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · fruity ester",
           "note": "~8 compounds"
         },
         {
           "name": "Strawberry",
           "pct": 83,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · sweet overlap",
           "note": "~8 compounds"
         },
         {
           "name": "Char Siu Sauce",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · lacquered sweet",
           "note": "~5 compounds"
         },
         {
           "name": "Wisteria Flower",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · floral compound",
           "note": "~5 compounds"
         },
         {
           "name": "Vinegar",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · acetic balance",
           "note": "~5 compounds"
         }
       ]
@@ -2009,42 +2009,42 @@
           "name": "Sesame Oil",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · East Asian base",
           "note": "~1,800 recipes"
         },
         {
           "name": "Shiitake Mushroom",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · umami stack",
           "note": "~250 recipes"
         },
         {
           "name": "Ginger",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · ginger-soy duo",
           "note": "~250 recipes"
         },
         {
           "name": "Oyster Sauce",
           "pct": 79,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · double umami",
           "note": "~250 recipes"
         },
         {
           "name": "Light Soy Sauce",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · layered salt",
           "note": "~250 recipes"
         },
         {
           "name": "Shaoxing Wine",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · Chinese trinity",
           "note": "~250 recipes"
         }
       ],
@@ -2053,42 +2053,42 @@
           "name": "Scallion",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · sharp green",
           "note": "~12 compounds"
         },
         {
           "name": "Enoki Mushroom",
           "pct": 78,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · delicate umami",
           "note": "~5 compounds"
         },
         {
           "name": "Bamboo Shoot",
           "pct": 74,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · vegetal depth",
           "note": "~5 compounds"
         },
         {
           "name": "Sake",
           "pct": 74,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · fermented grain",
           "note": "~5 compounds"
         },
         {
           "name": "Bok Choy",
           "pct": 74,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · mild green",
           "note": "~5 compounds"
         },
         {
           "name": "Oyster Sauce",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · caramel umami",
           "note": "~5 compounds"
         }
       ]
@@ -2100,42 +2100,42 @@
           "name": "Soy Sauce",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · acid-salt balance",
           "note": "~1,800 recipes"
         },
         {
           "name": "Sesame Oil",
           "pct": 82,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · dressing foundation",
           "note": "~700 recipes"
         },
         {
           "name": "Carrot",
           "pct": 75,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · pickled sweet",
           "note": "~250 recipes"
         },
         {
           "name": "Tofu",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · mapo depth",
           "note": "~250 recipes"
         },
         {
           "name": "Light Soy Sauce",
           "pct": 74,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · Chinese pour",
           "note": "~250 recipes"
         },
         {
           "name": "Salt",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · brine base",
           "note": "~250 recipes"
         }
       ],
@@ -2144,42 +2144,42 @@
           "name": "Scallion",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · sharp green",
           "note": "~12 compounds"
         },
         {
           "name": "Wood Ear Mushroom",
           "pct": 92,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · black fungus",
           "note": "~12 compounds"
         },
         {
           "name": "Yard Long Bean",
           "pct": 83,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · pickled vegetal",
           "note": "~8 compounds"
         },
         {
           "name": "Salt",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · mineral acid",
           "note": "~8 compounds"
         },
         {
           "name": "Chili Oil",
           "pct": 81,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · Sichuan sour",
+          "note": "~8 compounds"
         },
         {
           "name": "Oil",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · emulsify base",
           "note": "~5 compounds"
         }
       ]
@@ -2191,42 +2191,42 @@
           "name": "Pomegranate Molasses",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · Levantine sweet",
           "note": "~1,800 recipes"
         },
         {
           "name": "Sumac",
           "pct": 93,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · tart depth",
+          "note": "~700 recipes"
         },
         {
           "name": "Chickpea",
           "pct": 85,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · hummus core",
           "note": "~700 recipes"
         },
         {
           "name": "Pastrami",
           "pct": 77,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · deli richness",
           "note": "~250 recipes"
         },
         {
           "name": "Bulgur",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · grain bowl",
           "note": "~250 recipes"
         },
         {
           "name": "Labneh",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · double cream",
           "note": "~250 recipes"
         }
       ],
@@ -2235,42 +2235,42 @@
           "name": "Labneh",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · fermented fat",
           "note": "~12 compounds"
         },
         {
           "name": "Zaatar",
           "pct": 82,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · herb sesame",
           "note": "~8 compounds"
         },
         {
           "name": "Pumpkin Seed",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · seed oil",
           "note": "~5 compounds"
         },
         {
           "name": "Sumac",
           "pct": 75,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · tart sesame",
           "note": "~5 compounds"
         },
         {
           "name": "Pomegranate Molasses",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · fruity sesame",
           "note": "~5 compounds"
         },
         {
           "name": "Brown Rice",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · nutty bran",
           "note": "~5 compounds"
         }
       ]
@@ -2282,42 +2282,42 @@
           "name": "Vanilla",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · warm baking",
           "note": "~1,800 recipes"
         },
         {
           "name": "Clove",
           "pct": 92,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · spice accord",
+          "note": "~700 recipes"
         },
         {
           "name": "Nutmeg",
           "pct": 91,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · warm trio",
+          "note": "~700 recipes"
         },
         {
           "name": "Apple",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · apple pie",
           "note": "~250 recipes"
         },
         {
           "name": "Raisin",
           "pct": 78,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · spiced fruit",
           "note": "~250 recipes"
         },
         {
           "name": "Cardamom",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · chai family",
           "note": "~250 recipes"
         }
       ],
@@ -2326,42 +2326,42 @@
           "name": "Clove",
           "pct": 94,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · eugenol twins",
           "note": "~12 compounds"
         },
         {
           "name": "Nutmeg",
           "pct": 88,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · warm phenolic",
           "note": "~8 compounds"
         },
         {
           "name": "Allspice",
           "pct": 80,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · spice family",
           "note": "~5 compounds"
         },
         {
           "name": "Fennel Seed",
           "pct": 76,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · anise-warm",
           "note": "~5 compounds"
         },
         {
           "name": "Fennel",
           "pct": 75,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · licorice bridge",
           "note": "~5 compounds"
         },
         {
           "name": "Cardamom",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · terpene family",
           "note": "~5 compounds"
         }
       ]
@@ -2373,42 +2373,42 @@
           "name": "Cocoa Powder",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · chocolate balance",
           "note": "~1,800 recipes"
         },
         {
           "name": "Baking Powder",
           "pct": 87,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · cake base",
           "note": "~700 recipes"
         },
         {
           "name": "Chocolate",
           "pct": 87,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · classic pairing",
           "note": "~700 recipes"
         },
         {
           "name": "Milk Chocolate",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · sweet cream",
           "note": "~250 recipes"
         },
         {
           "name": "Cinnamon",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · warm baking",
           "note": "~250 recipes"
         },
         {
           "name": "White Chocolate",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · pure sweet",
           "note": "~250 recipes"
         }
       ],
@@ -2417,42 +2417,42 @@
           "name": "Chocolate",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · vanillin overlap",
           "note": "~12 compounds"
         },
         {
           "name": "Cocoa Powder",
           "pct": 80,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · roasty vanillin",
           "note": "~5 compounds"
         },
         {
           "name": "Fudge",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · cooked sugar",
           "note": "~5 compounds"
         },
         {
           "name": "Baking Soda",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · alkaline sweet",
           "note": "~5 compounds"
         },
         {
           "name": "Frosting",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · sweet fat",
           "note": "~5 compounds"
         },
         {
           "name": "Hazelnut",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · praline roast",
           "note": "~5 compounds"
         }
       ]
@@ -2464,42 +2464,42 @@
           "name": "Paprika",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · red spice duo",
           "note": "~1,800 recipes"
         },
         {
           "name": "Parsley",
           "pct": 93,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · seasoning herb",
+          "note": "~700 recipes"
         },
         {
           "name": "Oregano",
           "pct": 77,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · Italian blend",
           "note": "~250 recipes"
         },
         {
           "name": "Salt",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · universal pair",
           "note": "~250 recipes"
         },
         {
           "name": "Garlic",
           "pct": 74,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · pungent trio",
           "note": "~250 recipes"
         },
         {
           "name": "Shallot",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · sharp allium",
           "note": "~250 recipes"
         }
       ],
@@ -2508,42 +2508,42 @@
           "name": "Marjoram",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · terpene kin",
           "note": "~12 compounds"
         },
         {
           "name": "Oregano",
           "pct": 86,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · carvacrol family",
           "note": "~8 compounds"
         },
         {
           "name": "Nutmeg",
           "pct": 84,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · warm alkaloid",
           "note": "~8 compounds"
         },
         {
           "name": "Parsley",
           "pct": 81,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · green pungent",
+          "note": "~8 compounds"
         },
         {
           "name": "Cumin",
           "pct": 79,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · warm phenol",
           "note": "~5 compounds"
         },
         {
           "name": "Bay Leaf",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · slow heat",
           "note": "~5 compounds"
         }
       ]
@@ -2555,42 +2555,42 @@
           "name": "Garam Masala",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · Indian base",
           "note": "~1,800 recipes"
         },
         {
           "name": "Mustard Seed",
           "pct": 89,
           "axis": "r",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · warm spice",
           "note": "~700 recipes"
         },
         {
           "name": "Lentil",
           "pct": 83,
           "axis": "a",
-          "why": "paired in ~700 recipes · culinary match",
+          "why": "paired in ~700 recipes · dal foundation",
           "note": "~700 recipes"
         },
         {
           "name": "Salt",
           "pct": 79,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · spice bloom",
           "note": "~250 recipes"
         },
         {
           "name": "Coconut Milk",
           "pct": 74,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · golden curry",
           "note": "~250 recipes"
         },
         {
           "name": "Chili Pepper",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · heat balance",
           "note": "~250 recipes"
         }
       ],
@@ -2599,42 +2599,42 @@
           "name": "Cumin",
           "pct": 94,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · curcumin family",
           "note": "~12 compounds"
         },
         {
           "name": "Saffron",
           "pct": 92,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · golden pigment",
           "note": "~12 compounds"
         },
         {
           "name": "Curry Leaf",
           "pct": 89,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · terpenoid bond",
           "note": "~8 compounds"
         },
         {
           "name": "Lemongrass",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · citrus-earth",
           "note": "~8 compounds"
         },
         {
           "name": "Cardamom",
           "pct": 74,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · warm terpene",
           "note": "~5 compounds"
         },
         {
           "name": "Urad Dal",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · earthy legume",
           "note": "~5 compounds"
         }
       ]
@@ -2646,42 +2646,42 @@
           "name": "Horseradish",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · culinary match",
+          "why": "paired in ~1,800 recipes · bitter heat",
           "note": "~1,800 recipes"
         },
         {
           "name": "Doubanjiang",
           "pct": 90,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · culinary match",
-          "note": "~1,800 recipes"
+          "why": "paired in ~700 recipes · fermented umami",
+          "note": "~700 recipes"
         },
         {
           "name": "Coriander",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~250 recipes · culinary match",
-          "note": "~250 recipes"
+          "why": "paired in ~700 recipes · beer bread seed",
+          "note": "~700 recipes"
         },
         {
           "name": "Garlic",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · pub anchor",
           "note": "~250 recipes"
         },
         {
           "name": "Onion",
           "pct": 75,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · batter base",
           "note": "~250 recipes"
         },
         {
           "name": "Leek",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · culinary match",
+          "why": "paired in ~250 recipes · allium lift",
           "note": "~250 recipes"
         }
       ],
@@ -2690,42 +2690,42 @@
           "name": "Puffer Fish",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · marine ferment",
           "note": "~12 compounds"
         },
         {
           "name": "Doubanjiang",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · flavor overlap",
+          "why": "shares ~12 aroma compounds · fermented grain",
           "note": "~12 compounds"
         },
         {
           "name": "Pickled Ginger",
           "pct": 82,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · flavor overlap",
+          "why": "shares ~8 aroma compounds · lactic acid",
           "note": "~8 compounds"
         },
         {
           "name": "Duck",
           "pct": 80,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
-          "note": "~5 compounds"
+          "why": "shares ~8 aroma compounds · fatty Maillard",
+          "note": "~8 compounds"
         },
         {
           "name": "Light Soy Sauce",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · fermented salt",
           "note": "~5 compounds"
         },
         {
           "name": "Fermented Black Bean",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flavor overlap",
+          "why": "shares ~5 aroma compounds · fermented depth",
           "note": "~5 compounds"
         }
       ]
