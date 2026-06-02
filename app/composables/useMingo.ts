@@ -4,6 +4,9 @@ import { FLAVORS } from '~~/shared/flavors'
 type Lens  = 'classic' | 'surprising'
 type Phase = 'results' | 'empty'
 
+export type LiveMatch = { name: string; pct: number; axis: 'g' | 'a' | 'r'; why: string; note: string }
+export type LiveGenome = { label: string; classic: LiveMatch[]; surprising: LiveMatch[] }
+
 export type MingoController = {
   seedKey:  Ref<string>
   lens:     Ref<Lens>
@@ -13,6 +16,7 @@ export type MingoController = {
   explores: Ref<number>
   notice:   Ref<string | null>
   share:    Ref<{ seedKey: string; lens: Lens } | null>
+  genome:   Ref<LiveGenome | null>
   pickSeed:     (key: string, note?: string) => void
   swapLens:     (v: Lens) => void
   openShare:    () => void
@@ -20,6 +24,7 @@ export type MingoController = {
   clearNotice:  () => void
   replay:       () => void
   _syncFromRoute: (key: string, lensParam?: string) => void
+  _setGenome:   (key: string, data: LiveGenome) => void
 }
 
 const MINGO_KEY: InjectionKey<MingoController> = Symbol('mingo')
@@ -33,6 +38,7 @@ function createMingo(): MingoController {
   const explores = ref(0)
   const notice   = ref<string | null>(null)
   const share    = ref<{ seedKey: string; lens: Lens } | null>(null)
+  const genome   = ref<LiveGenome | null>(null)
   const router   = useRouter()
 
   function pickSeed(key: string, note?: string) {
@@ -41,6 +47,7 @@ function createMingo(): MingoController {
     mSel.value     = null
     notice.value   = note ?? null
     phase.value    = 'results'
+    genome.value   = null        // clear stale genome until API responds
     explores.value++
     track('seed_explored', { seed: key, lens: lens.value })
     navigateTo(`/genome/${key}`)
@@ -71,15 +78,18 @@ function createMingo(): MingoController {
   }
 
   function _syncFromRoute(key: string, lensParam?: string) {
-    if (!FLAVORS[key]) return
     seedKey.value = key
     if (lensParam === 'classic' || lensParam === 'surprising') lens.value = lensParam
     phase.value    = 'results'
     explores.value = Math.max(explores.value, 1)
   }
 
-  return { seedKey, lens, sel, mSel, phase, explores, notice, share,
-    pickSeed, swapLens, openShare, closeShare, clearNotice, replay, _syncFromRoute }
+  function _setGenome(key: string, data: LiveGenome) {
+    if (key === seedKey.value) genome.value = data
+  }
+
+  return { seedKey, lens, sel, mSel, phase, explores, notice, share, genome,
+    pickSeed, swapLens, openShare, closeShare, clearNotice, replay, _syncFromRoute, _setGenome }
 }
 
 export function provideMingo(): MingoController {

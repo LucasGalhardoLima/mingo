@@ -95,9 +95,10 @@ const mingo = useMingo()
 
 const WAITLIST_AFTER = 3
 
-const nodes    = computed(() => layout(FLAVORS[mingo.seedKey.value]![mingo.lens.value]))
-const top4     = computed(() => nodes.value.slice(0, 4))
-const seedLabel = computed(() => FLAVORS[mingo.seedKey.value]?.label ?? '')
+const matches   = computed(() => mingo.genome.value?.[mingo.lens.value] ?? FLAVORS[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
+const nodes     = computed(() => layout(matches.value))
+const top4      = computed(() => nodes.value.slice(0, 4))
+const seedLabel = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? '')
 const lensLabel = computed(() => mingo.lens.value === 'classic' ? 'Classic' : 'Surprising')
 const active    = computed(() => mingo.sel.value ? nodes.value.find(n => n.name === mingo.sel.value) ?? null : null)
 const showWaitlist = computed(() => mingo.explores.value >= WAITLIST_AFTER)

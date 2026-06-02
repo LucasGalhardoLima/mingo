@@ -53,8 +53,9 @@ const mingo = useMingo()
 
 const WAITLIST_AFTER = 3
 
-const top4      = computed(() => FLAVORS[mingo.seedKey.value]![mingo.lens.value].slice(0, 4))
-const seedLabel = computed(() => FLAVORS[mingo.seedKey.value]?.label ?? '')
+const matches   = computed(() => mingo.genome.value?.[mingo.lens.value] ?? FLAVORS[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
+const top4      = computed(() => matches.value.slice(0, 4))
+const seedLabel = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? '')
 const showWaitlist = computed(() => mingo.explores.value >= WAITLIST_AFTER)
 
 function onCardClick(name: string) {
