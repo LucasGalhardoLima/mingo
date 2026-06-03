@@ -64,7 +64,7 @@ onMounted(() => {
 })
 
 const allChips = computed(() =>
-  Object.entries(FLAVORS).map(([key, seed]) => ({
+  Object.entries(FLAVORS).slice(0, 15).map(([key, seed]) => ({
     key,
     label: seed.label,
     axis: (seed.surprising[0]?.axis ?? seed.classic[0]?.axis ?? 'a') as Axis,
