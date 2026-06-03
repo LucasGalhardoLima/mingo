@@ -16,44 +16,16 @@
       <span class="muted" style="font-size:12px"> — {{ teaser.note }}</span>
     </div>
 
-    <div style="max-width:440px;margin:0 auto 22px">
+    <div style="max-width:440px;margin:0 auto 0">
       <SeedSearch :big="true" />
     </div>
 
-    <div class="lab" style="margin-bottom:12px">or try one of these</div>
-    <div class="chips" style="justify-content:center">
-      <span
-        v-for="c in CHIPS"
-        :key="c.key"
-        class="chip"
-        tabindex="0"
-        role="button"
-        @click="mingo.pickSeed(c.key)"
-        @keydown.enter="mingo.pickSeed(c.key)"
-      >
-        <span class="d" :class="`ax-${c.axis}`"></span>
-        {{ c.label.toLowerCase() }}
-      </span>
-    </div>
-
-    <GhostRings />
+    <HeroOrbit />
   </div>
 </template>
 
 <script setup lang="ts">
-import type { Axis } from '~~/shared/flavors'
-
 const mingo = useMingo()
-
-const CHIPS = [
-  { key: 'fig',        label: 'Fig',        axis: 'r' as Axis },
-  { key: 'coffee',     label: 'Coffee',     axis: 'r' as Axis },
-  { key: 'strawberry', label: 'Strawberry', axis: 'g' as Axis },
-  { key: 'basil',      label: 'Basil',      axis: 'g' as Axis },
-  { key: 'miso',       label: 'Miso',       axis: 'r' as Axis },
-  { key: 'garlic',     label: 'Garlic',     axis: 'g' as Axis },
-  { key: 'lemon',      label: 'Lemon',      axis: 'g' as Axis },
-]
 
 const TEASERS = [
   { seed: 'Fig',        match: 'Blue cheese', note: 'shares ~12 aroma compounds · honeyed funk' },
