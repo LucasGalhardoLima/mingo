@@ -86,6 +86,10 @@ onUnmounted(() => { if (rafId !== null) cancelAnimationFrame(rafId) })
   inset: 0;
   transform-origin: center;
   will-change: transform;
+  pointer-events: none;
+}
+.orbit-spinner :deep(button.node) {
+  pointer-events: auto;
 }
 .hero-disc {
   position: absolute;

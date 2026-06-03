@@ -183,5 +183,9 @@ function onRowClick(name: string) {
   inset: 0;
   transform-origin: center;
   will-change: transform;
+  pointer-events: none;
+}
+.orbit-spinner :deep(button.node) {
+  pointer-events: auto;
 }
 </style>
