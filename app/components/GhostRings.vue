@@ -7,3 +7,16 @@
     </g>
   </svg>
 </template>
+
+<style scoped>
+svg {
+  animation: orbit-spin 40s linear infinite;
+  transform-origin: 50% 60%;
+}
+@keyframes orbit-spin {
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  svg { animation: none; }
+}
+</style>
