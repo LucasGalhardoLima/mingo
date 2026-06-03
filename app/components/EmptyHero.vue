@@ -21,9 +21,9 @@
     </div>
 
     <div class="lab" style="margin-bottom:12px">or try one of these</div>
-    <div class="chips" style="justify-content:center;max-width:680px;margin:0 auto">
+    <div class="chips" style="justify-content:center">
       <span
-        v-for="c in allChips"
+        v-for="c in CHIPS"
         :key="c.key"
         class="chip"
         tabindex="0"
@@ -41,18 +41,27 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '~~/shared/flavors'
 import type { Axis } from '~~/shared/flavors'
 
 const mingo = useMingo()
 
+const CHIPS = [
+  { key: 'fig',        label: 'Fig',        axis: 'r' as Axis },
+  { key: 'coffee',     label: 'Coffee',     axis: 'r' as Axis },
+  { key: 'strawberry', label: 'Strawberry', axis: 'g' as Axis },
+  { key: 'basil',      label: 'Basil',      axis: 'g' as Axis },
+  { key: 'miso',       label: 'Miso',       axis: 'r' as Axis },
+  { key: 'garlic',     label: 'Garlic',     axis: 'g' as Axis },
+  { key: 'lemon',      label: 'Lemon',      axis: 'g' as Axis },
+]
+
 const TEASERS = [
-  { seed: 'Fig',        match: 'Blue cheese',  note: 'shares ~12 aroma compounds · honeyed funk' },
-  { seed: 'Miso',       match: 'Caramel',      note: 'shares ~9 compounds · Maillard depth' },
-  { seed: 'Strawberry', match: 'Peach',        note: 'shares ~8 compounds · summer stone' },
-  { seed: 'Coffee',     match: 'Irish Cream',  note: 'shares ~5 compounds · creamy bitter' },
-  { seed: 'Basil',      match: 'Tarragon',     note: 'shares ~12 compounds · anise kin' },
-  { seed: 'Turmeric',   match: 'Saffron',      note: 'shares ~12 compounds · golden pigment' },
+  { seed: 'Fig',        match: 'Blue cheese', note: 'shares ~12 aroma compounds · honeyed funk' },
+  { seed: 'Miso',       match: 'Caramel',     note: 'shares ~9 compounds · Maillard depth' },
+  { seed: 'Strawberry', match: 'Peach',       note: 'shares ~8 compounds · summer stone' },
+  { seed: 'Coffee',     match: 'Irish Cream', note: 'shares ~5 compounds · creamy bitter' },
+  { seed: 'Basil',      match: 'Tarragon',    note: 'shares ~12 compounds · anise kin' },
+  { seed: 'Turmeric',   match: 'Saffron',     note: 'shares ~12 compounds · golden pigment' },
 ]
 
 const teaserIdx = ref(0)
@@ -62,12 +71,4 @@ onMounted(() => {
   if (!import.meta.client) return
   setInterval(() => { teaserIdx.value++ }, 4000)
 })
-
-const allChips = computed(() =>
-  Object.entries(FLAVORS).slice(0, 15).map(([key, seed]) => ({
-    key,
-    label: seed.label,
-    axis: (seed.surprising[0]?.axis ?? seed.classic[0]?.axis ?? 'a') as Axis,
-  }))
-)
 </script>
