@@ -11,7 +11,7 @@
   >
     <span class="dot" :class="`ax-${n.axis}`"></span>
     <span class="nn">{{ n.name }}</span>
-    <span class="pp">{{ n.pct }}%</span>
+    <span v-if="!hidePct" class="pp">{{ n.pct }}%</span>
   </button>
 </template>
 
@@ -19,7 +19,7 @@
 import type { LayoutNode } from '~~/shared/layout'
 import { seedKeyFor } from '~~/shared/layout'
 
-const props = defineProps<{ n: LayoutNode; i: number; angle: number }>()
+const props = defineProps<{ n: LayoutNode; i: number; angle: number; hidePct?: boolean }>()
 
 const mingo     = useMingo()
 const bloomed   = ref(false)

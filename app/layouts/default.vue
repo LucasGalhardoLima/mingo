@@ -6,7 +6,7 @@
           <NuxtLink to="/" class="m-wm" style="text-decoration:none;color:inherit">Mingo</NuxtLink>
           <span class="m-tag">flavors that mingle</span>
         </div>
-        <SeedSearch />
+        <SeedSearch v-if="route.name !== 'index'" />
         <nav class="m-nav">
           <a role="button" tabindex="0" @click="mingo.replay()" @keydown.enter="mingo.replay()">↺ First run</a>
           <span class="btn fill" style="padding:9px 18px;font-size:14px">Get the app</span>
@@ -20,6 +20,7 @@
 </template>
 
 <script setup lang="ts">
+const route = useRoute()
 const mingo = useMingo()
 </script>
 

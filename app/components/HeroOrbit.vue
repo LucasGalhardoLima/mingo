@@ -21,6 +21,7 @@
         :n="node"
         :i="idx"
         :angle="angles[r] ?? 0"
+        :hide-pct="true"
       />
     </div>
 
