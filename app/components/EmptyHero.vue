@@ -1,7 +1,7 @@
 <template>
   <div style="text-align:center;padding:18px 0 6px">
     <div class="lab" style="margin-bottom:8px">{{ $t('hero.eyebrow') }}</div>
-    <i18n-t keypath="hero.heading" tag="div" class="serif" style="font-size:clamp(38px,6vw,58px);line-height:.94;font-style:italic;margin:0 auto 14px;max-width:640px">
+    <i18n-t keypath="hero.heading" tag="div" class="serif" style="font-size:clamp(34px,4.5vw,46px);line-height:.94;font-style:italic;margin:0 auto 14px;max-width:640px">
       <template #blank><span style="font-style:normal;white-space:nowrap">___?</span></template>
     </i18n-t>
 
