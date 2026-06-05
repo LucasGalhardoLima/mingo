@@ -7,43 +7,43 @@
           "name": "Damasco",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · stone-fruit kin",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · família das frutas de caroço",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Pera",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · soft autumn sweet",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · doçura suave de outono",
+          "note": "~250 receitas"
         },
         {
           "name": "Flor Comestível",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · floral elegance",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · elegância floral",
+          "note": "~250 receitas"
         },
         {
           "name": "Avelã",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · rich nuttiness",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · riqueza de nozes",
+          "note": "~250 receitas"
         },
         {
           "name": "Quinoa",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · grain contrast",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · contraste de grãos",
+          "note": "~250 receitas"
         },
         {
           "name": "Tâmara",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · honeyed depth",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · profundidade adocicada",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -51,43 +51,43 @@
           "name": "Tâmara",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · honeyed fruit",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · fruta adocicada",
+          "note": "~12 compostos"
         },
         {
           "name": "Amêndoa Amarga",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · floral nuttiness",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · tostado floral",
+          "note": "~8 compostos"
         },
         {
           "name": "Coco-do-Mar",
           "pct": 82,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · tropical sweet",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · doçura tropical",
+          "note": "~8 compostos"
         },
         {
           "name": "Tâmara Vermelha",
           "pct": 79,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · caramel fruit",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · fruta caramelizada",
+          "note": "~5 compostos"
         },
         {
           "name": "Longan",
           "pct": 77,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · floral honey",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · mel floral",
+          "note": "~5 compostos"
         },
         {
           "name": "Cogumelo Leite de Tigre",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · earthy sweet",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · doçura terrosa",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -98,43 +98,43 @@
           "name": "Cacau em Pó",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · roasty depth",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · profundidade tostada",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Chocolate",
           "pct": 89,
           "axis": "a",
-          "why": "paired in ~700 recipes · bitter kin",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · família amarga",
+          "note": "~700 receitas"
         },
         {
           "name": "Rum",
           "pct": 85,
           "axis": "r",
-          "why": "paired in ~700 recipes · dark warmth",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · calor profundo",
+          "note": "~700 receitas"
         },
         {
           "name": "Licor de Café",
           "pct": 83,
           "axis": "r",
-          "why": "paired in ~700 recipes · double roast",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · duplo tostado",
+          "note": "~700 receitas"
         },
         {
           "name": "Baunilha",
           "pct": 83,
           "axis": "r",
-          "why": "paired in ~700 recipes · cream balance",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · equilíbrio cremoso",
+          "note": "~700 receitas"
         },
         {
           "name": "Cacau",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · raw bitter",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · amargo cru",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -142,43 +142,43 @@
           "name": "Licor de Café",
           "pct": 94,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · caramel pyrazine",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · pirazina de caramelo",
+          "note": "~12 compostos"
         },
         {
           "name": "Chocolate",
           "pct": 79,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · roasty overlap",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · sobreposição tostada",
+          "note": "~5 compostos"
         },
         {
           "name": "Irish Cream",
           "pct": 78,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · creamy bitter",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · amargo cremoso",
+          "note": "~5 compostos"
         },
         {
           "name": "Cacau",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · raw roast",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · tostado cru",
+          "note": "~5 compostos"
         },
         {
           "name": "Licor de Chocolate",
           "pct": 77,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · sweet dark",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · escuro adocicado",
+          "note": "~5 compostos"
         },
         {
           "name": "Biscoito Champanhe",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · soaked sponge",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · pão embebido",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -189,43 +189,43 @@
           "name": "Framboesa",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · berry twins",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · gêmeos de frutas vermelhas",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Mirtilo",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · mixed berry",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · mix de frutas vermelhas",
+          "note": "~250 receitas"
         },
         {
           "name": "Sorvete",
           "pct": 77,
           "axis": "a",
-          "why": "paired in ~250 recipes · cold sweet",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · doce frio",
+          "note": "~250 receitas"
         },
         {
           "name": "Banana",
           "pct": 75,
           "axis": "g",
-          "why": "paired in ~250 recipes · tropical blend",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · mistura tropical",
+          "note": "~250 receitas"
         },
         {
           "name": "Amora",
           "pct": 74,
           "axis": "g",
-          "why": "paired in ~250 recipes · dark berry lift",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · toque de frutas escuras",
+          "note": "~250 receitas"
         },
         {
           "name": "Rum",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · boozy sweet",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · doce alcoólico",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -233,43 +233,43 @@
           "name": "Creme de Leite",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · ester overlap",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · sobreposição de éster",
+          "note": "~12 compostos"
         },
         {
           "name": "Gelatina",
           "pct": 87,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · set dessert",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · sobremesa firme",
+          "note": "~8 compostos"
         },
         {
           "name": "Pêssego",
           "pct": 86,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · summer stone",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · frutas de caroço no verão",
+          "note": "~8 compostos"
         },
         {
           "name": "Maçã",
           "pct": 79,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · shared esters",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · ésteres compartilhados",
+          "note": "~5 compostos"
         },
         {
           "name": "Framboesa",
           "pct": 75,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · berry aldehydes",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · aldeídos de frutas vermelhas",
+          "note": "~5 compostos"
         },
         {
           "name": "Abacaxi",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · tropical ester",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · éster tropical",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -280,43 +280,43 @@
           "name": "Salsinha",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · herb duo",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · dupla de ervas",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Azeite",
           "pct": 91,
           "axis": "g",
-          "why": "paired in ~700 recipes · Mediterranean base",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · base mediterrânea",
+          "note": "~700 receitas"
         },
         {
           "name": "Queijo Parmesão",
           "pct": 91,
           "axis": "a",
-          "why": "paired in ~700 recipes · Italian classic",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · clássico italiano",
+          "note": "~700 receitas"
         },
         {
           "name": "Pimenta-do-Reino",
           "pct": 85,
           "axis": "r",
-          "why": "paired in ~700 recipes · pungent lift",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · toque pungente",
+          "note": "~700 receitas"
         },
         {
           "name": "Vinho Branco",
           "pct": 78,
           "axis": "r",
-          "why": "paired in ~250 recipes · bright acid",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · ácido vibrante",
+          "note": "~250 receitas"
         },
         {
           "name": "Tomilho",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · herb accord",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · acorde de ervas",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -324,43 +324,43 @@
           "name": "Estragão",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · anise kin",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · família do anis",
+          "note": "~12 compostos"
         },
         {
           "name": "Orégano",
           "pct": 92,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · Mediterranean overlap",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · sobreposição mediterrânea",
+          "note": "~12 compostos"
         },
         {
           "name": "Alecrim",
           "pct": 89,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · terpene family",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · família de terpenos",
+          "note": "~8 compostos"
         },
         {
           "name": "Massa",
           "pct": 79,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · pesto target",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · alvo do pesto",
+          "note": "~5 compostos"
         },
         {
           "name": "Erva-Doce",
           "pct": 75,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · anise overlap",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · sobreposição de anis",
+          "note": "~5 compostos"
         },
         {
           "name": "Abobrinha",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · summer green",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · verde de verão",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -371,43 +371,43 @@
           "name": "Saquê",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · fermented grain",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · grão fermentado",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Ervilha-Torta",
           "pct": 83,
           "axis": "g",
-          "why": "paired in ~700 recipes · spring fresh",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · frescor de primavera",
+          "note": "~700 receitas"
         },
         {
           "name": "Mirin",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~700 recipes · sweet umami",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · umami adocicado",
+          "note": "~700 receitas"
         },
         {
           "name": "Shichimi Togarashi",
           "pct": 78,
           "axis": "r",
-          "why": "paired in ~250 recipes · heat contrast",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · contraste de picância",
+          "note": "~250 receitas"
         },
         {
           "name": "Tofu Frito",
           "pct": 77,
           "axis": "a",
-          "why": "paired in ~250 recipes · sponge umami",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · umami absorvente",
+          "note": "~250 receitas"
         },
         {
           "name": "Flocos de Bonito",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · dashi depth",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · profundidade de dashi",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -415,43 +415,43 @@
           "name": "Polvo",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · sea umami",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · umami do mar",
+          "note": "~12 compostos"
         },
         {
           "name": "Kombu",
           "pct": 90,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · glutamate stack",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · camadas de glutamato",
+          "note": "~12 compostos"
         },
         {
           "name": "Natto",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · fermented deep",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · fermentado profundo",
+          "note": "~8 compostos"
         },
         {
           "name": "Tofu",
           "pct": 82,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · soy kin",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · família da soja",
+          "note": "~8 compostos"
         },
         {
           "name": "Wakame",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · marine soft",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · suave marinho",
+          "note": "~5 compostos"
         },
         {
           "name": "Leite de Soja",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · soy core",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · alma de soja",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -462,43 +462,43 @@
           "name": "Pimenta",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · heat anchor",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · âncora de picância",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Sal",
           "pct": 87,
           "axis": "a",
-          "why": "paired in ~700 recipes · seasoning base",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · base de tempero",
+          "note": "~700 receitas"
         },
         {
           "name": "Tomate",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · sofrito start",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · início de sofrito",
+          "note": "~250 receitas"
         },
         {
           "name": "Cebola",
           "pct": 75,
           "axis": "g",
-          "why": "paired in ~250 recipes · aromatic twin",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · gêmeo aromático",
+          "note": "~250 receitas"
         },
         {
           "name": "Óleo",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · infused base",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · base infusionada",
+          "note": "~250 receitas"
         },
         {
           "name": "Pimenta-do-Reino",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · pungent accord",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · acorde pungente",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -506,43 +506,43 @@
           "name": "Cebolinha",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · allium family",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · família allium",
+          "note": "~12 compostos"
         },
         {
           "name": "Chalota",
           "pct": 92,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · allium kin",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · parente allium",
+          "note": "~12 compostos"
         },
         {
           "name": "Cebola",
           "pct": 89,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · thiosulfinate bond",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · ligação de tiossulfinato",
+          "note": "~8 compostos"
         },
         {
           "name": "Alho-Poró",
           "pct": 88,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · sulfur allium",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · allium sulfuroso",
+          "note": "~8 compostos"
         },
         {
           "name": "Cebolinha Verde",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · sharp green",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · verde intenso",
+          "note": "~5 compostos"
         },
         {
           "name": "Cogumelo Shiitake",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · earthy sulfur",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · enxofre terroso",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -553,43 +553,43 @@
           "name": "Shoyu Claro",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · East Asian base",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · base asiática oriental",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Shoyu",
           "pct": 83,
           "axis": "r",
-          "why": "paired in ~700 recipes · umami heat",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · umami picante",
+          "note": "~700 receitas"
         },
         {
           "name": "Óleo de Gergelim",
           "pct": 82,
           "axis": "a",
-          "why": "paired in ~700 recipes · toasted warmth",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · calor tostado",
+          "note": "~700 receitas"
         },
         {
           "name": "Glutamato Monossódico",
           "pct": 80,
           "axis": "a",
-          "why": "paired in ~250 recipes · umami boost",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · reforço de umami",
+          "note": "~250 receitas"
         },
         {
           "name": "Pimenta Dedo-de-Moça",
           "pct": 78,
           "axis": "r",
-          "why": "paired in ~250 recipes · heat stack",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · camadas de picância",
+          "note": "~250 receitas"
         },
         {
           "name": "Pimenta Sichuan",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · numbing spice",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · especiaria entorpecente",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -597,43 +597,43 @@
           "name": "Cebolinha Verde",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · zingy green",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · verde vibrante",
+          "note": "~12 compostos"
         },
         {
           "name": "Vinho Shaoxing",
           "pct": 92,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · fermented warmth",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · calor fermentado",
+          "note": "~12 compostos"
         },
         {
           "name": "Anis-Estrelado",
           "pct": 83,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · spice bridge",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · ponte de especiarias",
+          "note": "~8 compostos"
         },
         {
           "name": "Noz de Ginkgo",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · bitter resin",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · resina amarga",
+          "note": "~5 compostos"
         },
         {
           "name": "Tofu",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · mild canvas",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · tela neutra",
+          "note": "~5 compostos"
         },
         {
           "name": "Pimenta Sichuan",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · numbing citrus",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · cítrico entorpecente",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -644,43 +644,43 @@
           "name": "Tomate",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · sofrito soul",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · alma de sofrito",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Páprica",
           "pct": 91,
           "axis": "r",
-          "why": "paired in ~700 recipes · sweet heat",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · picância adocicada",
+          "note": "~700 receitas"
         },
         {
           "name": "Alho",
           "pct": 82,
           "axis": "g",
-          "why": "paired in ~700 recipes · aromatic base",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · base aromática",
+          "note": "~700 receitas"
         },
         {
           "name": "Salsinha",
           "pct": 78,
           "axis": "a",
-          "why": "paired in ~250 recipes · herb finish",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · finalização com ervas",
+          "note": "~250 receitas"
         },
         {
           "name": "Pimenta-do-Reino",
           "pct": 74,
           "axis": "r",
-          "why": "paired in ~250 recipes · spice layer",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · camada de especiarias",
+          "note": "~250 receitas"
         },
         {
           "name": "Tomilho",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · slow simmer",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · fervura lenta",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -688,43 +688,43 @@
           "name": "Alho",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · allium twins",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · gêmeos allium",
+          "note": "~12 compostos"
         },
         {
           "name": "Cebolinha",
           "pct": 90,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · thiosulfinate kin",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · família do tiossulfinato",
+          "note": "~12 compostos"
         },
         {
           "name": "Alho-Poró",
           "pct": 81,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · sweet allium",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · allium adocicado",
+          "note": "~8 compostos"
         },
         {
           "name": "Chalota",
           "pct": 81,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · delicate allium",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · allium delicado",
+          "note": "~8 compostos"
         },
         {
           "name": "Abobrinha",
           "pct": 74,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · summer vegetal",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · vegetal de verão",
+          "note": "~5 compostos"
         },
         {
           "name": "Pimentão",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · sweet vegetal",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · vegetal adocicado",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -735,43 +735,43 @@
           "name": "Laranja",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · citrus kin",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · família cítrica",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Hortelã",
           "pct": 88,
           "axis": "a",
-          "why": "paired in ~700 recipes · bright fresh",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · frescor vibrante",
+          "note": "~700 receitas"
         },
         {
           "name": "Alecrim",
           "pct": 86,
           "axis": "a",
-          "why": "paired in ~700 recipes · herb lift",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · toque de ervas",
+          "note": "~700 receitas"
         },
         {
           "name": "Cereja",
           "pct": 85,
           "axis": "g",
-          "why": "paired in ~700 recipes · tart fruit",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · fruta ácida",
+          "note": "~700 receitas"
         },
         {
           "name": "Mostarda",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · sharp acid",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · ácido intenso",
+          "note": "~250 receitas"
         },
         {
           "name": "Vinho Branco",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · acid mirror",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · espelho ácido",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -779,43 +779,43 @@
           "name": "Limão-Taiti",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · limonene twins",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · gêmeos de limoneno",
+          "note": "~12 compostos"
         },
         {
           "name": "Clementina",
           "pct": 88,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · citral kin",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · família do citral",
+          "note": "~8 compostos"
         },
         {
           "name": "Laranja",
           "pct": 87,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · citrus terpene",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · terpeno cítrico",
+          "note": "~8 compostos"
         },
         {
           "name": "Romã",
           "pct": 80,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · tart overlap",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · sobreposição ácida",
+          "note": "~5 compostos"
         },
         {
           "name": "Salsinha",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · green citrus",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · cítrico verde",
+          "note": "~5 compostos"
         },
         {
           "name": "Cardamomo",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · citrus spice",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · especiaria cítrica",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -826,43 +826,43 @@
           "name": "Cebola",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · sauce foundation",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · base de molho",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Salsinha",
           "pct": 90,
           "axis": "a",
-          "why": "paired in ~700 recipes · green brightness",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · frescor verde",
+          "note": "~700 receitas"
         },
         {
           "name": "Alho",
           "pct": 85,
           "axis": "g",
-          "why": "paired in ~700 recipes · Italian holy trio",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · trio sagrado italiano",
+          "note": "~700 receitas"
         },
         {
           "name": "Azeite",
           "pct": 83,
           "axis": "g",
-          "why": "paired in ~700 recipes · Mediterranean pull",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · atração mediterrânea",
+          "note": "~700 receitas"
         },
         {
           "name": "Pimentão",
           "pct": 78,
           "axis": "g",
-          "why": "paired in ~250 recipes · sweet vegetal",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · vegetal adocicado",
+          "note": "~250 receitas"
         },
         {
           "name": "Pimenta-do-Reino",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · sharp seasoning",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · tempero intenso",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -870,43 +870,43 @@
           "name": "Feijão",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · green vegetal",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · vegetal verde",
+          "note": "~12 compostos"
         },
         {
           "name": "Pimentão",
           "pct": 92,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · pyrazine family",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · família das pirazinas",
+          "note": "~12 compostos"
         },
         {
           "name": "Pimenta Vermelha",
           "pct": 91,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · carotenoid kin",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · família de carotenoides",
+          "note": "~8 compostos"
         },
         {
           "name": "Tortilha",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · corn sweet",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · doçura de milho",
+          "note": "~8 compostos"
         },
         {
           "name": "Cebola",
           "pct": 80,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · sulfur vegetal",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · vegetal sulfuroso",
+          "note": "~5 compostos"
         },
         {
           "name": "Feijão Vermelho",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · legume green",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · legume verde",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -917,43 +917,43 @@
           "name": "Azeite",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · sauté base",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · base de refogado",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Cebolinha",
           "pct": 92,
           "axis": "a",
-          "why": "paired in ~700 recipes · mild onion lift",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · toque de cebola suave",
+          "note": "~700 receitas"
         },
         {
           "name": "Tempero Italiano",
           "pct": 88,
           "axis": "r",
-          "why": "paired in ~700 recipes · herb blend",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · mistura de ervas",
+          "note": "~700 receitas"
         },
         {
           "name": "Pimenta-do-Reino",
           "pct": 86,
           "axis": "r",
-          "why": "paired in ~700 recipes · earthy heat",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · calor terroso",
+          "note": "~700 receitas"
         },
         {
           "name": "Cenoura",
           "pct": 84,
           "axis": "g",
-          "why": "paired in ~700 recipes · root duo",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · dupla de raízes",
+          "note": "~700 receitas"
         },
         {
           "name": "Cebola",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · aromatic start",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · início aromático",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -961,43 +961,43 @@
           "name": "Massa",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · carbonyl match",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · combinação de carbonila",
+          "note": "~12 compostos"
         },
         {
           "name": "Queijo Suíço",
           "pct": 92,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · umami overlap",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · sobreposição de umami",
+          "note": "~12 compostos"
         },
         {
           "name": "Abobrinha",
           "pct": 80,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · vegetal earthy",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · vegetal terroso",
+          "note": "~5 compostos"
         },
         {
           "name": "Macarrão de Ovo",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · wheat earthy",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · trigo terroso",
+          "note": "~5 compostos"
         },
         {
           "name": "Pão",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · yeast umami",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · umami de levedura",
+          "note": "~5 compostos"
         },
         {
           "name": "Carne Bovina",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · savory depth",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · profundidade salgada",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1008,43 +1008,43 @@
           "name": "Alface",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · salad anchor",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · âncora de salada",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Rúcula",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · peppery green",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · verde apimentado",
+          "note": "~250 receitas"
         },
         {
           "name": "Pão",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · toast canvas",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · tela tostada",
+          "note": "~250 receitas"
         },
         {
           "name": "Pimenta-do-Reino",
           "pct": 74,
           "axis": "r",
-          "why": "paired in ~250 recipes · sharp contrast",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · contraste intenso",
+          "note": "~250 receitas"
         },
         {
           "name": "Queijo Monterey Jack",
           "pct": 74,
           "axis": "a",
-          "why": "paired in ~250 recipes · creamy melt",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · derretimento cremoso",
+          "note": "~250 receitas"
         },
         {
           "name": "Salmão",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · fat on fat",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · gordura sobre gordura",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1052,43 +1052,43 @@
           "name": "Tortilha",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · Mesoamerican kin",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · família mesoamericana",
+          "note": "~12 compostos"
         },
         {
           "name": "Quinoa",
           "pct": 82,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · South American pair",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · dupla sul-americana",
+          "note": "~8 compostos"
         },
         {
           "name": "Tomatillo",
           "pct": 81,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · green vegetal",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · vegetal verde",
+          "note": "~8 compostos"
         },
         {
           "name": "Jicama",
           "pct": 80,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · crisp fresh",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · frescor crocante",
+          "note": "~5 compostos"
         },
         {
           "name": "Nopal",
           "pct": 78,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · Mexican trio",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · trio mexicano",
+          "note": "~5 compostos"
         },
         {
           "name": "Epazote",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · herbal green",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · verde herbáceo",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1099,43 +1099,43 @@
           "name": "Ervilha",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · garden pair",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · dupla do jardim",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Repolho",
           "pct": 79,
           "axis": "g",
-          "why": "paired in ~250 recipes · slaw classic",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · slaw clássico",
+          "note": "~250 receitas"
         },
         {
           "name": "Óleo de Gergelim",
           "pct": 79,
           "axis": "a",
-          "why": "paired in ~250 recipes · East Asian roast",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · assado asiático oriental",
+          "note": "~250 receitas"
         },
         {
           "name": "Cogumelo",
           "pct": 78,
           "axis": "g",
-          "why": "paired in ~250 recipes · earthy root",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · raiz terrosa",
+          "note": "~250 receitas"
         },
         {
           "name": "Frango",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · braise base",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · base de brasato",
+          "note": "~250 receitas"
         },
         {
           "name": "Arroz",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · pilaf balance",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · equilíbrio de pilaf",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1143,43 +1143,43 @@
           "name": "Ervilha",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · pyrazine twins",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · gêmeos de pirazina",
+          "note": "~12 compostos"
         },
         {
           "name": "Salsão",
           "pct": 87,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · root vegetal",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · vegetal de raiz",
+          "note": "~8 compostos"
         },
         {
           "name": "Abobrinha",
           "pct": 81,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · summer vegetal",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · vegetal de verão",
+          "note": "~8 compostos"
         },
         {
           "name": "Nori",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · sweet marine",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · marinho adocicado",
+          "note": "~5 compostos"
         },
         {
           "name": "Pastinaca",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · root family",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · família de raízes",
+          "note": "~5 compostos"
         },
         {
           "name": "Bok Choy",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · Asian green",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · verde asiático",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1190,43 +1190,43 @@
           "name": "Pimenta-do-Reino",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · wilted seasoning",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · tempero murchado",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Azeite",
           "pct": 89,
           "axis": "g",
-          "why": "paired in ~700 recipes · sauté standard",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · refogado padrão",
+          "note": "~700 receitas"
         },
         {
           "name": "Salsinha",
           "pct": 80,
           "axis": "a",
-          "why": "paired in ~250 recipes · green duet",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · dueto verde",
+          "note": "~250 receitas"
         },
         {
           "name": "Folhas para Salada",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · leaf blend",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · mistura de folhas",
+          "note": "~250 receitas"
         },
         {
           "name": "Queijo de Cabra",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · tangy cream",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · creme ácido",
+          "note": "~250 receitas"
         },
         {
           "name": "Repolho",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · brassica kin",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · família brassica",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1234,43 +1234,43 @@
           "name": "Acelga",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · leafy green kin",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · família de folhas verdes",
+          "note": "~12 compostos"
         },
         {
           "name": "Abobrinha",
           "pct": 91,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · chlorophyll overlap",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · sobreposição de clorofila",
+          "note": "~12 compostos"
         },
         {
           "name": "Massa",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · green sauce",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · molho verde",
+          "note": "~8 compostos"
         },
         {
           "name": "Óleo de Canola",
           "pct": 81,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · neutral fat",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · gordura neutra",
+          "note": "~8 compostos"
         },
         {
           "name": "Queijo Ricota",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · mild dairy",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · laticínio suave",
+          "note": "~5 compostos"
         },
         {
           "name": "Couve",
           "pct": 73,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · bitter green",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · verde amargo",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1281,43 +1281,43 @@
           "name": "Alho",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · universal base",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · base universal",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Cebola",
           "pct": 84,
           "axis": "g",
-          "why": "paired in ~700 recipes · roast anchor",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · âncora de tostado",
+          "note": "~700 receitas"
         },
         {
           "name": "Pimenta-do-Reino",
           "pct": 81,
           "axis": "r",
-          "why": "paired in ~700 recipes · seasoning backbone",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · espinha de tempero",
+          "note": "~700 receitas"
         },
         {
           "name": "Peru",
           "pct": 78,
           "axis": "a",
-          "why": "paired in ~250 recipes · poultry kin",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · família de aves",
+          "note": "~250 receitas"
         },
         {
           "name": "Cenoura",
           "pct": 76,
           "axis": "g",
-          "why": "paired in ~250 recipes · braise comfort",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · conforto de brasato",
+          "note": "~250 receitas"
         },
         {
           "name": "Caldo de Frango",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · stock deepen",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · aprofundamento de caldo",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1325,43 +1325,43 @@
           "name": "Carne Bovina",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · Maillard cousins",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · primos de Maillard",
+          "note": "~12 compostos"
         },
         {
           "name": "Porco",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · roast amino",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · aminoácido tostado",
+          "note": "~8 compostos"
         },
         {
           "name": "Creme de Galinha",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · cooked poultry",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · ave cozida",
+          "note": "~8 compostos"
         },
         {
           "name": "Molho Buffalo",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · acetic heat",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · calor acético",
+          "note": "~5 compostos"
         },
         {
           "name": "Amendoim",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · satay amino",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · aminoácido satay",
+          "note": "~5 compostos"
         },
         {
           "name": "Camarão",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · Maillard marine",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · Maillard marinho",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1372,43 +1372,43 @@
           "name": "Wasabi",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · sushi icon",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · ícone do sushi",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Abacate",
           "pct": 79,
           "axis": "g",
-          "why": "paired in ~250 recipes · omega pairing",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · dupla ômega",
+          "note": "~250 receitas"
         },
         {
           "name": "Ponzu",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · citrus umami",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · umami cítrico",
+          "note": "~250 receitas"
         },
         {
           "name": "Vinagre Balsâmico",
           "pct": 74,
           "axis": "a",
-          "why": "paired in ~250 recipes · acid glaze",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · glacê ácido",
+          "note": "~250 receitas"
         },
         {
           "name": "Vieira",
           "pct": 74,
           "axis": "a",
-          "why": "paired in ~250 recipes · seafood duo",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · dupla de frutos do mar",
+          "note": "~250 receitas"
         },
         {
           "name": "Ovas de Peixe",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · ocean luxury",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · luxo do oceano",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1416,43 +1416,43 @@
           "name": "Presunto",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · cured protein",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · proteína curada",
+          "note": "~12 compostos"
         },
         {
           "name": "Truta",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · freshwater kin",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · família de água doce",
+          "note": "~5 compostos"
         },
         {
           "name": "Atum",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · omega fatty",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · gordura ômega",
+          "note": "~5 compostos"
         },
         {
           "name": "Bacalhau",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · white fish",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · peixe branco",
+          "note": "~5 compostos"
         },
         {
           "name": "Missô",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · fermented umami",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · umami fermentado",
+          "note": "~5 compostos"
         },
         {
           "name": "Wasabi",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · isothiocyanate",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · isotiocianato",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1463,43 +1463,43 @@
           "name": "Farinha",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · baking bond",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · liga de confeitaria",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Gema de Ovo",
           "pct": 84,
           "axis": "a",
-          "why": "paired in ~700 recipes · double yolk",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · dupla de gemas",
+          "note": "~700 receitas"
         },
         {
           "name": "Leite",
           "pct": 82,
           "axis": "a",
-          "why": "paired in ~700 recipes · dairy trio",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · trio de laticínios",
+          "note": "~700 receitas"
         },
         {
           "name": "Fermento em Pó",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~700 recipes · lift agent",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · agente de crescimento",
+          "note": "~700 receitas"
         },
         {
           "name": "Baunilha",
           "pct": 74,
           "axis": "r",
-          "why": "paired in ~250 recipes · custard base",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · base de creme inglês",
+          "note": "~250 receitas"
         },
         {
           "name": "Leite Condensado",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · sweet dense",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · denso adocicado",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1507,43 +1507,43 @@
           "name": "Fermento em Pó",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · leavening pair",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · dupla de fermentação",
+          "note": "~12 compostos"
         },
         {
           "name": "Bicarbonato de Sódio",
           "pct": 88,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · alkaline lift",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · leveza alcalina",
+          "note": "~8 compostos"
         },
         {
           "name": "Gema de Ovo",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · lecithin kin",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · família da lecitina",
+          "note": "~8 compostos"
         },
         {
           "name": "Açúcar Mascavo",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · Maillard sweet",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · Maillard adocicado",
+          "note": "~5 compostos"
         },
         {
           "name": "Óleo Vegetal",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · fat emulsify",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · gordura emulsificante",
+          "note": "~5 compostos"
         },
         {
           "name": "Farinha Graham",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · whole wheat",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · trigo integral",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1554,43 +1554,43 @@
           "name": "Creme de Leite",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · dairy duo",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · dupla de laticínios",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Gema de Ovo",
           "pct": 88,
           "axis": "a",
-          "why": "paired in ~700 recipes · hollandaise base",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · base de hollandaise",
+          "note": "~700 receitas"
         },
         {
           "name": "Farinha",
           "pct": 83,
           "axis": "a",
-          "why": "paired in ~700 recipes · roux foundation",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · base de roux",
+          "note": "~700 receitas"
         },
         {
           "name": "Leite",
           "pct": 82,
           "axis": "a",
-          "why": "paired in ~700 recipes · beurre blanc",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · beurre blanc",
+          "note": "~700 receitas"
         },
         {
           "name": "Amêndoa",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · frangipane",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · frangipane",
+          "note": "~250 receitas"
         },
         {
           "name": "Tomilho",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · basted warmth",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · calor temperado",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1598,43 +1598,43 @@
           "name": "Leite",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · dairy fat",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · gordura láctea",
+          "note": "~12 compostos"
         },
         {
           "name": "Farinha",
           "pct": 79,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · baked crust",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · casca assada",
+          "note": "~5 compostos"
         },
         {
           "name": "Ovo",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · emulsion kin",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · família de emulsão",
+          "note": "~5 compostos"
         },
         {
           "name": "Chocolate",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · ganache base",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · base de ganache",
+          "note": "~5 compostos"
         },
         {
           "name": "Queijo Parmesão",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · fat depth",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · profundidade gordurosa",
+          "note": "~5 compostos"
         },
         {
           "name": "Massa Folhada",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · flaky matrix",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · massa folhada",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1645,43 +1645,43 @@
           "name": "Manteiga",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · dairy soul",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · alma de laticínio",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Gema de Ovo",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~700 recipes · crème brûlée",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · crème brûlée",
+          "note": "~700 receitas"
         },
         {
           "name": "Gelatina",
           "pct": 78,
           "axis": "a",
-          "why": "paired in ~250 recipes · panna cotta",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · panna cotta",
+          "note": "~250 receitas"
         },
         {
           "name": "Sorvete",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · frozen rich",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · rico gelado",
+          "note": "~250 receitas"
         },
         {
           "name": "Conhaque",
           "pct": 75,
           "axis": "r",
-          "why": "paired in ~250 recipes · flambé base",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · base de flambado",
+          "note": "~250 receitas"
         },
         {
           "name": "Biscoito",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · cream filling",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · recheio cremoso",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1689,43 +1689,43 @@
           "name": "Gelatina",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · set texture",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · textura firme",
+          "note": "~12 compostos"
         },
         {
           "name": "Chocolate",
           "pct": 88,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · ganache overlap",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · sobreposição de ganache",
+          "note": "~8 compostos"
         },
         {
           "name": "Merengue",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · sweet fat",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · gordura adocicada",
+          "note": "~8 compostos"
         },
         {
           "name": "Sorvete",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · dairy frozen",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · laticínio gelado",
+          "note": "~8 compostos"
         },
         {
           "name": "Cacau em Pó",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · dark fat",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · gordura escura",
+          "note": "~5 compostos"
         },
         {
           "name": "Açúcar",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · sweet dairy",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · laticínio adocicado",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1736,43 +1736,43 @@
           "name": "Queijo Mussarela",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · Italian stretchy",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · queijo italiano elástico",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Maionese",
           "pct": 91,
           "axis": "a",
-          "why": "paired in ~700 recipes · creamy blend",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · mistura cremosa",
+          "note": "~700 receitas"
         },
         {
           "name": "Cebola",
           "pct": 82,
           "axis": "g",
-          "why": "paired in ~700 recipes · savory base",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · base salgada",
+          "note": "~700 receitas"
         },
         {
           "name": "Pimenta-do-Reino",
           "pct": 82,
           "axis": "r",
-          "why": "paired in ~700 recipes · sharp contrast",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · contraste intenso",
+          "note": "~700 receitas"
         },
         {
           "name": "Azeite",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · Mediterranean drizzle",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · fio mediterrâneo",
+          "note": "~250 receitas"
         },
         {
           "name": "Cogumelo",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · earthy umami",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · umami terroso",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1780,43 +1780,43 @@
           "name": "Queijo Mussarela",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · milk protein",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · proteína do leite",
+          "note": "~12 compostos"
         },
         {
           "name": "Queijo Muenster",
           "pct": 91,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · washed rind",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · casca lavada",
+          "note": "~12 compostos"
         },
         {
           "name": "Queijo Cheddar",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · aged fat",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · gordura curada",
+          "note": "~8 compostos"
         },
         {
           "name": "Queijo Cottage",
           "pct": 77,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · fresh curd",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · coalho fresco",
+          "note": "~8 compostos"
         },
         {
           "name": "Queijo Feta",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · brined tang",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · acidez em salmoura",
+          "note": "~5 compostos"
         },
         {
           "name": "Queijo de Cabra",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · capric acid",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · ácido cáprico",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1827,43 +1827,43 @@
           "name": "Salsinha",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · gremolata base",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · base de gremolata",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Tomate",
           "pct": 86,
           "axis": "g",
-          "why": "paired in ~700 recipes · bruschetta soul",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · alma de bruschetta",
+          "note": "~700 receitas"
         },
         {
           "name": "Rúcula",
           "pct": 83,
           "axis": "g",
-          "why": "paired in ~700 recipes · peppery salad",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · salada apimentada",
+          "note": "~700 receitas"
         },
         {
           "name": "Manjericão",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~700 recipes · pesto heart",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · coração do pesto",
+          "note": "~700 receitas"
         },
         {
           "name": "Pão",
           "pct": 79,
           "axis": "a",
-          "why": "paired in ~250 recipes · dipping classic",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · molho clássico para mergulhar",
+          "note": "~250 receitas"
         },
         {
           "name": "Alcaparra",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · briny punch",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · toque salgado marinho",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1871,43 +1871,43 @@
           "name": "Cebola Roxa",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · vegetal aldehydes",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · aldeídos vegetais",
+          "note": "~12 compostos"
         },
         {
           "name": "Vinagre Balsâmico",
           "pct": 91,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · polyphenol pair",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · dupla de polifenóis",
+          "note": "~12 compostos"
         },
         {
           "name": "Vinagre de Vinho Tinto",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · acid kin",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · família ácida",
+          "note": "~8 compostos"
         },
         {
           "name": "Pimenta Caiena",
           "pct": 78,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · fat-soluble heat",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · calor lipossolúvel",
+          "note": "~5 compostos"
         },
         {
           "name": "Vinagre de Vinho Branco",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · bright acid",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · ácido vibrante",
+          "note": "~5 compostos"
         },
         {
           "name": "Vinagre de Xerez",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · oxidative depth",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · profundidade oxidativa",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -1918,43 +1918,43 @@
           "name": "Maçã",
           "pct": 94,
           "axis": "g",
-          "why": "paired in ~1,800 recipes · orchard sweet",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · doçura de pomar",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Gelatina",
           "pct": 80,
           "axis": "a",
-          "why": "paired in ~250 recipes · jelly preserve",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · geleia",
+          "note": "~250 receitas"
         },
         {
           "name": "Mirtilo",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · wild sweet",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · doçura selvagem",
+          "note": "~250 receitas"
         },
         {
           "name": "Cereja",
           "pct": 79,
           "axis": "g",
-          "why": "paired in ~250 recipes · stone-fruit glaze",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · glacê de fruta de caroço",
+          "note": "~250 receitas"
         },
         {
           "name": "Baunilha",
           "pct": 76,
           "axis": "r",
-          "why": "paired in ~250 recipes · blossom warmth",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · calor floral",
+          "note": "~250 receitas"
         },
         {
           "name": "Canela",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · spiced drizzle",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · fio condimentado",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -1962,43 +1962,43 @@
           "name": "Pera",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · floral ester",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · éster floral",
+          "note": "~12 compostos"
         },
         {
           "name": "Maçã",
           "pct": 89,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · fruity ester",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · éster frutado",
+          "note": "~8 compostos"
         },
         {
           "name": "Morango",
           "pct": 83,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · sweet overlap",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · sobreposição doce",
+          "note": "~8 compostos"
         },
         {
           "name": "Molho Char Siu",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · lacquered sweet",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · doce laqueado",
+          "note": "~5 compostos"
         },
         {
           "name": "Flor de Glicínia",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · floral compound",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · composto floral",
+          "note": "~5 compostos"
         },
         {
           "name": "Vinagre",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · acetic balance",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · equilíbrio acético",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -2009,43 +2009,43 @@
           "name": "Óleo de Gergelim",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · East Asian base",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · base asiática oriental",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Cogumelo Shiitake",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · umami stack",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · camadas de umami",
+          "note": "~250 receitas"
         },
         {
           "name": "Gengibre",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · ginger-soy duo",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · dupla gengibre-shoyu",
+          "note": "~250 receitas"
         },
         {
           "name": "Molho de Ostra",
           "pct": 79,
           "axis": "a",
-          "why": "paired in ~250 recipes · double umami",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · duplo umami",
+          "note": "~250 receitas"
         },
         {
           "name": "Shoyu Claro",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · layered salt",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · sal em camadas",
+          "note": "~250 receitas"
         },
         {
           "name": "Vinho Shaoxing",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · Chinese trinity",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · trio chinês",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -2053,43 +2053,43 @@
           "name": "Cebolinha Verde",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · sharp green",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · verde intenso",
+          "note": "~12 compostos"
         },
         {
           "name": "Cogumelo Enoki",
           "pct": 78,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · delicate umami",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · umami delicado",
+          "note": "~5 compostos"
         },
         {
           "name": "Broto de Bambu",
           "pct": 74,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · vegetal depth",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · profundidade vegetal",
+          "note": "~5 compostos"
         },
         {
           "name": "Saquê",
           "pct": 74,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · fermented grain",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · grão fermentado",
+          "note": "~5 compostos"
         },
         {
           "name": "Bok Choy",
           "pct": 74,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · mild green",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · verde suave",
+          "note": "~5 compostos"
         },
         {
           "name": "Molho de Ostra",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · caramel umami",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · umami caramelizado",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -2100,43 +2100,43 @@
           "name": "Shoyu",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · acid-salt balance",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · equilíbrio ácido-sal",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Óleo de Gergelim",
           "pct": 82,
           "axis": "a",
-          "why": "paired in ~700 recipes · dressing foundation",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · base de molho",
+          "note": "~700 receitas"
         },
         {
           "name": "Cenoura",
           "pct": 75,
           "axis": "g",
-          "why": "paired in ~250 recipes · pickled sweet",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · doce em conserva",
+          "note": "~250 receitas"
         },
         {
           "name": "Tofu",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · mapo depth",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · profundidade mapo",
+          "note": "~250 receitas"
         },
         {
           "name": "Shoyu Claro",
           "pct": 74,
           "axis": "a",
-          "why": "paired in ~250 recipes · Chinese pour",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · molho chinês",
+          "note": "~250 receitas"
         },
         {
           "name": "Sal",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · brine base",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · base de salmoura",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -2144,43 +2144,43 @@
           "name": "Cebolinha Verde",
           "pct": 94,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · sharp green",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · verde intenso",
+          "note": "~12 compostos"
         },
         {
           "name": "Cogumelo Orelha de Madeira",
           "pct": 92,
           "axis": "g",
-          "why": "shares ~12 aroma compounds · black fungus",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · fungo negro",
+          "note": "~12 compostos"
         },
         {
           "name": "Feijão-Espargue",
           "pct": 83,
           "axis": "g",
-          "why": "shares ~8 aroma compounds · pickled vegetal",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · vegetal em conserva",
+          "note": "~8 compostos"
         },
         {
           "name": "Sal",
           "pct": 83,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · mineral acid",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · ácido mineral",
+          "note": "~8 compostos"
         },
         {
           "name": "Óleo de Pimenta",
           "pct": 81,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · Sichuan sour",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · ácido sichuan",
+          "note": "~8 compostos"
         },
         {
           "name": "Óleo",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · emulsify base",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · base emulsificante",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -2191,43 +2191,43 @@
           "name": "Melado de Romã",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · Levantine sweet",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · doce levantino",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Sumagre",
           "pct": 93,
           "axis": "r",
-          "why": "paired in ~700 recipes · tart depth",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · profundidade ácida",
+          "note": "~700 receitas"
         },
         {
           "name": "Grão-de-Bico",
           "pct": 85,
           "axis": "a",
-          "why": "paired in ~700 recipes · hummus core",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · coração do homus",
+          "note": "~700 receitas"
         },
         {
           "name": "Pastrami",
           "pct": 77,
           "axis": "a",
-          "why": "paired in ~250 recipes · deli richness",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · riqueza de frios",
+          "note": "~250 receitas"
         },
         {
           "name": "Bulgur",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · grain bowl",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · tigela de grãos",
+          "note": "~250 receitas"
         },
         {
           "name": "Labneh",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · double cream",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · duplo creme",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -2235,43 +2235,43 @@
           "name": "Labneh",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · fermented fat",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · gordura fermentada",
+          "note": "~12 compostos"
         },
         {
           "name": "Za'atar",
           "pct": 82,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · herb sesame",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · ervas com gergelim",
+          "note": "~8 compostos"
         },
         {
           "name": "Semente de Abóbora",
           "pct": 78,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · seed oil",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · óleo de semente",
+          "note": "~5 compostos"
         },
         {
           "name": "Sumagre",
           "pct": 75,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · tart sesame",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · gergelim ácido",
+          "note": "~5 compostos"
         },
         {
           "name": "Melado de Romã",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · fruity sesame",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · gergelim frutado",
+          "note": "~5 compostos"
         },
         {
           "name": "Arroz Integral",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · nutty bran",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · farelo tostado",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -2282,43 +2282,43 @@
           "name": "Baunilha",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · warm baking",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · assado quente",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Cravo",
           "pct": 92,
           "axis": "r",
-          "why": "paired in ~700 recipes · spice accord",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · acorde de especiarias",
+          "note": "~700 receitas"
         },
         {
           "name": "Noz-Moscada",
           "pct": 91,
           "axis": "r",
-          "why": "paired in ~700 recipes · warm trio",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · trio quente",
+          "note": "~700 receitas"
         },
         {
           "name": "Maçã",
           "pct": 80,
           "axis": "g",
-          "why": "paired in ~250 recipes · apple pie",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · torta de maçã",
+          "note": "~250 receitas"
         },
         {
           "name": "Uva-Passa",
           "pct": 78,
           "axis": "g",
-          "why": "paired in ~250 recipes · spiced fruit",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · fruta condimentada",
+          "note": "~250 receitas"
         },
         {
           "name": "Cardamomo",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · chai family",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · família do chai",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -2326,43 +2326,43 @@
           "name": "Cravo",
           "pct": 94,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · eugenol twins",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · gêmeos de eugenol",
+          "note": "~12 compostos"
         },
         {
           "name": "Noz-Moscada",
           "pct": 88,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · warm phenolic",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · fenólico quente",
+          "note": "~8 compostos"
         },
         {
           "name": "Pimenta-da-Jamaica",
           "pct": 80,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · spice family",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · família de especiarias",
+          "note": "~5 compostos"
         },
         {
           "name": "Semente de Erva-Doce",
           "pct": 76,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · anise-warm",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · anis quente",
+          "note": "~5 compostos"
         },
         {
           "name": "Erva-Doce",
           "pct": 75,
           "axis": "g",
-          "why": "shares ~5 aroma compounds · licorice bridge",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · ponte de alcaçuz",
+          "note": "~5 compostos"
         },
         {
           "name": "Cardamomo",
           "pct": 73,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · terpene family",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · família de terpenos",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -2373,43 +2373,43 @@
           "name": "Cacau em Pó",
           "pct": 94,
           "axis": "a",
-          "why": "paired in ~1,800 recipes · chocolate balance",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · equilíbrio de chocolate",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Fermento em Pó",
           "pct": 87,
           "axis": "a",
-          "why": "paired in ~700 recipes · cake base",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · base de bolo",
+          "note": "~700 receitas"
         },
         {
           "name": "Chocolate",
           "pct": 87,
           "axis": "a",
-          "why": "paired in ~700 recipes · classic pairing",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · combinação clássica",
+          "note": "~700 receitas"
         },
         {
           "name": "Chocolate ao Leite",
           "pct": 76,
           "axis": "a",
-          "why": "paired in ~250 recipes · sweet cream",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · creme adocicado",
+          "note": "~250 receitas"
         },
         {
           "name": "Canela",
           "pct": 73,
           "axis": "r",
-          "why": "paired in ~250 recipes · warm baking",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · assado quente",
+          "note": "~250 receitas"
         },
         {
           "name": "Chocolate Branco",
           "pct": 73,
           "axis": "a",
-          "why": "paired in ~250 recipes · pure sweet",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · doçura pura",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -2417,43 +2417,43 @@
           "name": "Chocolate",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · vanillin overlap",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · sobreposição de vanilina",
+          "note": "~12 compostos"
         },
         {
           "name": "Cacau em Pó",
           "pct": 80,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · roasty vanillin",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · vanilina tostada",
+          "note": "~5 compostos"
         },
         {
           "name": "Fudge",
           "pct": 75,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · cooked sugar",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · açúcar cozido",
+          "note": "~5 compostos"
         },
         {
           "name": "Bicarbonato de Sódio",
           "pct": 74,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · alkaline sweet",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · doçura alcalina",
+          "note": "~5 compostos"
         },
         {
           "name": "Cobertura",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · sweet fat",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · gordura adocicada",
+          "note": "~5 compostos"
         },
         {
           "name": "Avelã",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · praline roast",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · tostado de praliné",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -2464,43 +2464,43 @@
           "name": "Páprica",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · red spice duo",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · dupla de especiarias vermelhas",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Salsinha",
           "pct": 93,
           "axis": "a",
-          "why": "paired in ~700 recipes · seasoning herb",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · erva de tempero",
+          "note": "~700 receitas"
         },
         {
           "name": "Orégano",
           "pct": 77,
           "axis": "a",
-          "why": "paired in ~250 recipes · Italian blend",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · mistura italiana",
+          "note": "~250 receitas"
         },
         {
           "name": "Sal",
           "pct": 75,
           "axis": "a",
-          "why": "paired in ~250 recipes · universal pair",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · dupla universal",
+          "note": "~250 receitas"
         },
         {
           "name": "Alho",
           "pct": 74,
           "axis": "g",
-          "why": "paired in ~250 recipes · pungent trio",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · trio pungente",
+          "note": "~250 receitas"
         },
         {
           "name": "Chalota",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · sharp allium",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · allium intenso",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -2508,43 +2508,43 @@
           "name": "Manjerona",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · terpene kin",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · parente de terpenos",
+          "note": "~12 compostos"
         },
         {
           "name": "Orégano",
           "pct": 86,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · carvacrol family",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · família do carvacrol",
+          "note": "~8 compostos"
         },
         {
           "name": "Noz-Moscada",
           "pct": 84,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · warm alkaloid",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · alcaloide quente",
+          "note": "~8 compostos"
         },
         {
           "name": "Salsinha",
           "pct": 81,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · green pungent",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · verde pungente",
+          "note": "~8 compostos"
         },
         {
           "name": "Cominho",
           "pct": 79,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · warm phenol",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · fenol quente",
+          "note": "~5 compostos"
         },
         {
           "name": "Louro",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · slow heat",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · calor lento",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -2555,43 +2555,43 @@
           "name": "Garam Masala",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · Indian base",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · base indiana",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Semente de Mostarda",
           "pct": 89,
           "axis": "r",
-          "why": "paired in ~700 recipes · warm spice",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · especiaria quente",
+          "note": "~700 receitas"
         },
         {
           "name": "Lentilha",
           "pct": 83,
           "axis": "a",
-          "why": "paired in ~700 recipes · dal foundation",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · base de dal",
+          "note": "~700 receitas"
         },
         {
           "name": "Sal",
           "pct": 79,
           "axis": "a",
-          "why": "paired in ~250 recipes · spice bloom",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · florescer de especiarias",
+          "note": "~250 receitas"
         },
         {
           "name": "Leite de Coco",
           "pct": 74,
           "axis": "g",
-          "why": "paired in ~250 recipes · golden curry",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · curry dourado",
+          "note": "~250 receitas"
         },
         {
           "name": "Pimenta",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · heat balance",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · equilíbrio de picância",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -2599,43 +2599,43 @@
           "name": "Cominho",
           "pct": 94,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · curcumin family",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · família da curcumina",
+          "note": "~12 compostos"
         },
         {
           "name": "Açafrão",
           "pct": 92,
           "axis": "r",
-          "why": "shares ~12 aroma compounds · golden pigment",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · pigmento dourado",
+          "note": "~12 compostos"
         },
         {
           "name": "Folha de Curry",
           "pct": 89,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · terpenoid bond",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · ligação terpenoide",
+          "note": "~8 compostos"
         },
         {
           "name": "Capim-Limão",
           "pct": 84,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · citrus-earth",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · cítrico-terroso",
+          "note": "~8 compostos"
         },
         {
           "name": "Cardamomo",
           "pct": 74,
           "axis": "r",
-          "why": "shares ~5 aroma compounds · warm terpene",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · terpeno quente",
+          "note": "~5 compostos"
         },
         {
           "name": "Urad Dal",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · earthy legume",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · legume terroso",
+          "note": "~5 compostos"
         }
       ]
     },
@@ -2646,43 +2646,43 @@
           "name": "Raiz-Forte",
           "pct": 94,
           "axis": "r",
-          "why": "paired in ~1,800 recipes · bitter heat",
-          "note": "~1,800 recipes"
+          "why": "combinado em ~1.800 receitas · calor amargo",
+          "note": "~1.800 receitas"
         },
         {
           "name": "Doubanjiang",
           "pct": 90,
           "axis": "a",
-          "why": "paired in ~700 recipes · fermented umami",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · umami fermentado",
+          "note": "~700 receitas"
         },
         {
           "name": "Coentro",
           "pct": 81,
           "axis": "a",
-          "why": "paired in ~700 recipes · beer bread seed",
-          "note": "~700 recipes"
+          "why": "combinado em ~700 receitas · semente de pão de cerveja",
+          "note": "~700 receitas"
         },
         {
           "name": "Alho",
           "pct": 77,
           "axis": "g",
-          "why": "paired in ~250 recipes · pub anchor",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · âncora de boteco",
+          "note": "~250 receitas"
         },
         {
           "name": "Cebola",
           "pct": 75,
           "axis": "g",
-          "why": "paired in ~250 recipes · batter base",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · base de massa",
+          "note": "~250 receitas"
         },
         {
           "name": "Alho-Poró",
           "pct": 73,
           "axis": "g",
-          "why": "paired in ~250 recipes · allium lift",
-          "note": "~250 recipes"
+          "why": "combinado em ~250 receitas · toque allium",
+          "note": "~250 receitas"
         }
       ],
       "surprising": [
@@ -2690,43 +2690,43 @@
           "name": "Baiacu",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · marine ferment",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · fermentado marinho",
+          "note": "~12 compostos"
         },
         {
           "name": "Doubanjiang",
           "pct": 94,
           "axis": "a",
-          "why": "shares ~12 aroma compounds · fermented grain",
-          "note": "~12 compounds"
+          "why": "compartilha ~12 compostos aromáticos · grão fermentado",
+          "note": "~12 compostos"
         },
         {
           "name": "Gengibre em Conserva",
           "pct": 82,
           "axis": "r",
-          "why": "shares ~8 aroma compounds · lactic acid",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · ácido lático",
+          "note": "~8 compostos"
         },
         {
           "name": "Pato",
           "pct": 80,
           "axis": "a",
-          "why": "shares ~8 aroma compounds · fatty Maillard",
-          "note": "~8 compounds"
+          "why": "compartilha ~8 compostos aromáticos · Maillard gorduroso",
+          "note": "~8 compostos"
         },
         {
           "name": "Shoyu Claro",
           "pct": 76,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · fermented salt",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · sal fermentado",
+          "note": "~5 compostos"
         },
         {
           "name": "Feijão Preto Fermentado",
           "pct": 73,
           "axis": "a",
-          "why": "shares ~5 aroma compounds · fermented depth",
-          "note": "~5 compounds"
+          "why": "compartilha ~5 compostos aromáticos · profundidade fermentada",
+          "note": "~5 compostos"
         }
       ]
     }
