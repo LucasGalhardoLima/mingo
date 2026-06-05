@@ -54,17 +54,17 @@
 
 <script setup lang="ts">
 import { toPng } from 'html-to-image'
-import { FLAVORS } from '~~/shared/flavors'
 import ShareEditorial from './ShareEditorial.vue'
 import ShareOrbit     from './ShareOrbit.vue'
 import SharePoster    from './SharePoster.vue'
 
 const { t } = useI18n()
-const mingo = useMingo()
+const mingo         = useMingo()
+const localeFlavors = useLocaleFlavors()
 
 const seedKey  = computed(() => mingo.share.value!.seedKey)
 const lens     = computed(() => mingo.share.value!.lens)
-const label    = computed(() => FLAVORS[seedKey.value]?.label ?? seedKey.value)
+const label    = computed(() => localeFlavors.value[seedKey.value]?.label ?? seedKey.value)
 const lensWord = computed(() => lens.value === 'classic' ? t('lens.classic').toLowerCase() : t('lens.surprising').toLowerCase())
 
 const CARDS = computed(() => [

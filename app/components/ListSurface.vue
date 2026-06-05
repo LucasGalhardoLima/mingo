@@ -46,16 +46,17 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '~~/shared/flavors'
 import { fillClass, seedKeyFor } from '~~/shared/layout'
 
-const mingo = useMingo()
+const mingo         = useMingo()
+const localeFlavors = useLocaleFlavors()
+const localeGenome  = useLocaleGenome(mingo.genome)
 
 const WAITLIST_AFTER = 3
 
-const matches   = computed(() => mingo.genome.value?.[mingo.lens.value] ?? FLAVORS[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
+const matches   = computed(() => localeGenome.value?.[mingo.lens.value] ?? localeFlavors.value[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
 const top4      = computed(() => matches.value.slice(0, 4))
-const seedLabel = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? '')
+const seedLabel = computed(() => localeGenome.value?.label ?? localeFlavors.value[mingo.seedKey.value]?.label ?? '')
 const showWaitlist = computed(() => mingo.explores.value >= WAITLIST_AFTER)
 
 function onCardClick(name: string) {

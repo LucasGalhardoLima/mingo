@@ -1,9 +1,9 @@
 <template>
   <div style="text-align:center;padding:18px 0 6px">
     <div class="lab" style="margin-bottom:8px">{{ $t('hero.eyebrow') }}</div>
-    <div class="serif" style="font-size:clamp(38px,6vw,58px);line-height:.94;font-style:italic;margin:0 auto 14px;max-width:640px">
-      {{ $t('hero.heading') }} <span style="font-style:normal">{{ $t('hero.blank') }}</span>{{ $t('hero.headingQ') }}
-    </div>
+    <i18n-t keypath="hero.heading" tag="div" class="serif" style="font-size:clamp(38px,6vw,58px);line-height:.94;font-style:italic;margin:0 auto 14px;max-width:640px">
+      <template #blank><span style="font-style:normal;white-space:nowrap">___?</span></template>
+    </i18n-t>
 
     <p class="muted" style="font-size:15px;margin:0 auto 18px;max-width:420px;line-height:1.5">
       {{ $t('hero.subheading') }}

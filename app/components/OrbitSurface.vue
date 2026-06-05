@@ -98,19 +98,20 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '~~/shared/flavors'
 import { layout, RINGS, fillClass, seedKeyFor, bucket } from '~~/shared/layout'
 import type { LayoutNode } from '~~/shared/layout'
 
 const { t } = useI18n()
-const mingo = useMingo()
+const mingo         = useMingo()
+const localeFlavors = useLocaleFlavors()
+const localeGenome  = useLocaleGenome(mingo.genome)
 
 const WAITLIST_AFTER = 3
 
-const matches    = computed(() => mingo.genome.value?.[mingo.lens.value] ?? FLAVORS[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
+const matches    = computed(() => localeGenome.value?.[mingo.lens.value] ?? localeFlavors.value[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
 const nodes      = computed(() => layout(matches.value))
 const railItems  = computed(() => nodes.value)
-const seedLabel    = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? '')
+const seedLabel    = computed(() => localeGenome.value?.label ?? localeFlavors.value[mingo.seedKey.value]?.label ?? '')
 const seedFontSize = computed(() => {
   const len = seedLabel.value.length
   if (len <= 6) return '32px'

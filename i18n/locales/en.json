@@ -9,9 +9,7 @@
   },
   "hero": {
     "eyebrow": "find out",
-    "heading": "What secretly loves",
-    "blank": "___",
-    "headingQ": "?",
+    "heading": "What secretly loves {blank}",
     "subheading": "Two lenses: what recipes always knew · what aroma chemistry just revealed."
   },
   "orbit": {

@@ -6,12 +6,13 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '~~/shared/flavors'
 import type { LiveGenome } from '~/composables/useMingo'
 
 const route = useRoute()
 const mingo = useMingo()
 const { t } = useI18n()
+const localeFlavors = useLocaleFlavors()
+const localeGenome  = useLocaleGenome(mingo.genome)
 
 const seedParam = route.params.seed as string
 const lensParam = route.query.lens as string | undefined
@@ -24,8 +25,8 @@ const { data: apiGenome } = await useFetch<LiveGenome>(`/api/genome/${seedParam}
 
 watch(apiGenome, g => { if (g) mingo._setGenome(seedParam, g) }, { immediate: true })
 
-const fallbackLabel = computed(() => FLAVORS[mingo.seedKey.value]?.label ?? seedParam)
-const label = computed(() => apiGenome.value?.label ?? fallbackLabel.value)
+const fallbackLabel = computed(() => localeFlavors.value[mingo.seedKey.value]?.label ?? seedParam)
+const label = computed(() => localeGenome.value?.label ?? fallbackLabel.value)
 
 useSeoMeta({
   title:         () => t('seo.genome.title', { label: label.value }),

@@ -22,7 +22,7 @@
         class="drop-row"
         @mousedown.prevent="pick(r.key)"
       >
-        {{ r.label }}
+        {{ localLabel(r.key, r.label) }}
         <span class="lab" style="font-size:9px">{{ $t('search.staple') }}</span>
       </div>
     </div>
@@ -30,18 +30,21 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '~~/shared/flavors'
-
 defineProps<{ big?: boolean }>()
 
-const mingo = useMingo()
-const q     = ref('')
-const open  = ref(false)
+const mingo         = useMingo()
+const localeFlavors = useLocaleFlavors()
+const q    = ref('')
+const open = ref(false)
 
-const currentLabel = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? 'fig')
+const currentLabel = computed(() => mingo.genome.value?.label ?? localeFlavors.value[mingo.seedKey.value]?.label ?? 'fig')
 
 const results = ref<Array<{ key: string; label: string }>>([])
 let debounceTimer: ReturnType<typeof setTimeout> | null = null
+
+function localLabel(key: string, fallback: string): string {
+  return (localeFlavors.value as Record<string, { label: string } | undefined>)[key]?.label ?? fallback
+}
 
 function fetchResults(query: string) {
   if (debounceTimer) clearTimeout(debounceTimer)

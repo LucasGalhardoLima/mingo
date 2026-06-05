@@ -53,20 +53,20 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '~~/shared/flavors'
 import { layout } from '~~/shared/layout'
 
 const props = defineProps<{ seedKey: string; lens: 'classic' | 'surprising' }>()
 
 const { t } = useI18n()
+const localeFlavors = useLocaleFlavors()
 const cx = 180; const cy = 176; const R = [52, 92, 128]
 const AX: Record<string, string> = { g: 'var(--ax-g)', a: 'var(--ax-a)', r: 'var(--ax-r)' }
 
-const label    = computed(() => FLAVORS[props.seedKey]?.label ?? props.seedKey)
+const label    = computed(() => localeFlavors.value[props.seedKey]?.label ?? props.seedKey)
 const lensWord = computed(() => props.lens === 'classic' ? t('lens.classic').toLowerCase() : t('lens.surprising').toLowerCase())
 
 const scaled = computed(() =>
-  layout(FLAVORS[props.seedKey]?.[props.lens] ?? []).slice(0, 5).map(n => {
+  layout(localeFlavors.value[props.seedKey]?.[props.lens] ?? []).slice(0, 5).map(n => {
     const ox = (n.x - 230) / 198 * 128
     const oy = (n.y - 230) / 198 * 128
     return { ...n, px: cx + ox, py: cy + oy }

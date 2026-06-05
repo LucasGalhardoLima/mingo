@@ -17,14 +17,13 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '~~/shared/flavors'
-
 const props = defineProps<{ seedKey: string; lens: 'classic' | 'surprising' }>()
 
 const { t } = useI18n()
-const label    = computed(() => FLAVORS[props.seedKey]?.label ?? props.seedKey)
+const localeFlavors = useLocaleFlavors()
+const label    = computed(() => localeFlavors.value[props.seedKey]?.label ?? props.seedKey)
 const lensWord = computed(() => props.lens === 'classic' ? t('lens.classic').toLowerCase() : t('lens.surprising').toLowerCase())
-const top      = computed(() => FLAVORS[props.seedKey]![props.lens][0]!)
+const top      = computed(() => localeFlavors.value[props.seedKey]![props.lens][0]!)
 const cleanWhy = computed(() =>
   top.value.why.replace(/^shares?\s/i, 'share ').replace(/^paired.*recipes\s·?\s?/i, 'pair constantly — ')
 )

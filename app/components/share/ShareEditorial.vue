@@ -25,11 +25,11 @@
 </template>
 
 <script setup lang="ts">
-import { FLAVORS } from '~~/shared/flavors'
-
 const props = defineProps<{ seedKey: string; lens: 'classic' | 'surprising' }>()
-const label = computed(() => FLAVORS[props.seedKey]?.label ?? props.seedKey)
-const top3  = computed(() => (FLAVORS[props.seedKey]?.[props.lens] ?? []).slice(0, 3))
+
+const localeFlavors = useLocaleFlavors()
+const label = computed(() => localeFlavors.value[props.seedKey]?.label ?? props.seedKey)
+const top3  = computed(() => (localeFlavors.value[props.seedKey]?.[props.lens] ?? []).slice(0, 3))
 </script>
 
 <style scoped>
