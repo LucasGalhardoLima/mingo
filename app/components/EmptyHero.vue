@@ -25,17 +25,29 @@
 </template>
 
 <script setup lang="ts">
-const TEASERS = [
+const { locale } = useI18n()
+
+const TEASERS_EN = [
   { seed: 'Fig',        match: 'Blue cheese', note: 'shares ~12 aroma compounds · honeyed funk' },
   { seed: 'Miso',       match: 'Caramel',     note: 'shares ~9 compounds · Maillard depth' },
   { seed: 'Strawberry', match: 'Peach',       note: 'shares ~8 compounds · summer stone' },
   { seed: 'Coffee',     match: 'Irish Cream', note: 'shares ~5 compounds · creamy bitter' },
   { seed: 'Basil',      match: 'Tarragon',    note: 'shares ~12 compounds · anise kin' },
-  { seed: 'Turmeric',   match: 'Saffron',     note: 'shares ~12 compounds · golden pigment' },
+  { seed: 'Cúrcuma',    match: 'Açafrão',     note: 'shares ~12 compounds · golden pigment' },
 ]
 
+const TEASERS_PT = [
+  { seed: 'Figo',       match: 'Queijo Azul', note: 'compartilha ~12 compostos · funk adocicado' },
+  { seed: 'Missô',      match: 'Caramelo',    note: 'compartilha ~9 compostos · profundidade Maillard' },
+  { seed: 'Morango',    match: 'Pêssego',     note: 'compartilha ~8 compostos · frutas de caroço no verão' },
+  { seed: 'Café',       match: 'Irish Cream', note: 'compartilha ~5 compostos · amargo cremoso' },
+  { seed: 'Manjericão', match: 'Estragão',    note: 'compartilha ~12 compostos · família do anis' },
+  { seed: 'Cúrcuma',    match: 'Açafrão',     note: 'compartilha ~12 compostos · pigmento dourado' },
+]
+
+const teasers   = computed(() => locale.value.startsWith('pt') ? TEASERS_PT : TEASERS_EN)
 const teaserIdx = ref(0)
-const teaser    = computed(() => TEASERS[teaserIdx.value % TEASERS.length]!)
+const teaser    = computed(() => teasers.value[teaserIdx.value % teasers.value.length]!)
 
 onMounted(() => {
   if (!import.meta.client) return

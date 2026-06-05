@@ -33,21 +33,28 @@
 <script setup lang="ts">
 import { layout, RINGS, bucket } from '~~/shared/layout'
 import type { LayoutNode } from '~~/shared/layout'
-import type { Match } from '~~/shared/flavors'
 
 const { t } = useI18n()
+const localeFlavors = useLocaleFlavors()
 
-// 6 seeds assigned pct values that give 2-2-2 ring distribution
-const HERO_MATCHES: Match[] = [
-  { name: 'Fig',        pct: 94, axis: 'r', why: '', note: '' },
-  { name: 'Coffee',     pct: 90, axis: 'r', why: '', note: '' },
-  { name: 'Strawberry', pct: 85, axis: 'g', why: '', note: '' },
-  { name: 'Basil',      pct: 80, axis: 'g', why: '', note: '' },
-  { name: 'Miso',       pct: 74, axis: 'r', why: '', note: '' },
-  { name: 'Garlic',     pct: 70, axis: 'g', why: '', note: '' },
+const HERO_SEEDS = [
+  { key: 'fig',        pct: 94, axis: 'r' as const },
+  { key: 'coffee',     pct: 90, axis: 'r' as const },
+  { key: 'strawberry', pct: 85, axis: 'g' as const },
+  { key: 'basil',      pct: 80, axis: 'g' as const },
+  { key: 'miso',       pct: 74, axis: 'r' as const },
+  { key: 'garlic',     pct: 70, axis: 'g' as const },
 ]
 
-const nodes = computed(() => layout(HERO_MATCHES))
+const heroMatches = computed(() => HERO_SEEDS.map(s => ({
+  name: localeFlavors.value[s.key]?.label ?? s.key,
+  pct:  s.pct,
+  axis: s.axis,
+  why:  '',
+  note: '',
+})))
+
+const nodes = computed(() => layout(heroMatches.value))
 
 const nodeGroups = computed(() => {
   const groups: Array<Array<{ node: LayoutNode; idx: number }>> = [[], [], []]

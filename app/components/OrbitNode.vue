@@ -21,7 +21,8 @@ import { seedKeyFor } from '~~/shared/layout'
 
 const props = defineProps<{ n: LayoutNode; i: number; angle: number; hidePct?: boolean }>()
 
-const mingo     = useMingo()
+const mingo         = useMingo()
+const localeFlavors = useLocaleFlavors()
 const bloomed   = ref(false)
 const bloomDone = ref(false)   // true after bloom animation completes
 const isLead    = computed(() => mingo.sel.value === props.n.name)
@@ -55,6 +56,9 @@ const nodeStyle = computed(() => ({
 
 function handleClick() {
   const k = seedKeyFor(props.n.name)
+    ?? Object.keys(localeFlavors.value).find(key =>
+        localeFlavors.value[key]?.label.toLowerCase() === props.n.name.toLowerCase()
+      )
   if (k) mingo.pickSeed(k)
   else mingo.sel.value = props.n.name
 }

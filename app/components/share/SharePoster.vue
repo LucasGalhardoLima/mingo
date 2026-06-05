@@ -1,6 +1,6 @@
 <template>
   <div class="card-inner">
-    <div class="lab" style="color:var(--paper);opacity:.6">{{ lensWord }} pairing</div>
+    <div class="lab" style="color:var(--paper);opacity:.6">{{ lensWord }} {{ $t('share.poster.pairing') }}</div>
     <div style="flex:1;display:flex;flex-direction:column;justify-content:center;text-align:center">
       <div class="serif" style="font-style:italic;font-size:50px;line-height:.9">{{ label }}</div>
       <div class="serif" style="font-size:38px;color:var(--ax-r);margin:2px 0">×</div>

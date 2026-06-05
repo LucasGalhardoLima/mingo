@@ -63,6 +63,7 @@
       "orbit": "Orbit"
     },
     "poster": {
+      "pairing": "pairing",
       "neverGuess": "You'd never guess."
     }
   },
