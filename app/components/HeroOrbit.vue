@@ -26,9 +26,7 @@
     </div>
 
     <!-- Center: brand copy instead of seed disc -->
-    <div class="hero-disc serif">
-      flavors<br>that<br>mingle
-    </div>
+    <div class="hero-disc serif">{{ heroText }}</div>
   </div>
 </template>
 
@@ -37,15 +35,16 @@ import { layout, RINGS, bucket } from '~~/shared/layout'
 import type { LayoutNode } from '~~/shared/layout'
 import type { Match } from '~~/shared/flavors'
 
+const { t } = useI18n()
+
 // 6 seeds assigned pct values that give 2-2-2 ring distribution
-// seedKeyFor("Fig") → "fig" so OrbitNode click works unchanged
 const HERO_MATCHES: Match[] = [
-  { name: 'Fig',        pct: 94, axis: 'r', why: '', note: '' }, // strong ring, 90°
-  { name: 'Coffee',     pct: 90, axis: 'r', why: '', note: '' }, // strong ring, 30°
-  { name: 'Strawberry', pct: 85, axis: 'g', why: '', note: '' }, // good ring,  −30°
-  { name: 'Basil',      pct: 80, axis: 'g', why: '', note: '' }, // good ring,  −90°
-  { name: 'Miso',       pct: 74, axis: 'r', why: '', note: '' }, // stretch ring, −150°
-  { name: 'Garlic',     pct: 70, axis: 'g', why: '', note: '' }, // stretch ring,  150°
+  { name: 'Fig',        pct: 94, axis: 'r', why: '', note: '' },
+  { name: 'Coffee',     pct: 90, axis: 'r', why: '', note: '' },
+  { name: 'Strawberry', pct: 85, axis: 'g', why: '', note: '' },
+  { name: 'Basil',      pct: 80, axis: 'g', why: '', note: '' },
+  { name: 'Miso',       pct: 74, axis: 'r', why: '', note: '' },
+  { name: 'Garlic',     pct: 70, axis: 'g', why: '', note: '' },
 ]
 
 const nodes = computed(() => layout(HERO_MATCHES))
@@ -56,7 +55,9 @@ const nodeGroups = computed(() => {
   return groups
 })
 
-// Per-ring orbital speeds (same as OrbitSurface)
+// Hero disc text: tagline split across 3 lines
+const heroText = computed(() => t('brand.tagline'))
+
 const SPEEDS  = [0.20, 0.133, 0.10]
 const angles  = ref([0, 0, 0])
 const hovered = ref(false)
@@ -105,10 +106,12 @@ onUnmounted(() => { if (rafId !== null) cancelAnimationFrame(rafId) })
   justify-content: center;
   z-index: 4;
   font-style: italic;
-  font-size: 16px;
-  line-height: 1.3;
+  font-size: 13px;
+  line-height: 1.35;
   text-align: center;
   color: var(--soft);
   pointer-events: none;
+  padding: 8px;
+  word-break: break-word;
 }
 </style>

@@ -23,7 +23,7 @@
         @mousedown.prevent="pick(r.key)"
       >
         {{ r.label }}
-        <span class="lab" style="font-size:9px">staple</span>
+        <span class="lab" style="font-size:9px">{{ $t('search.staple') }}</span>
       </div>
     </div>
   </div>
@@ -40,7 +40,6 @@ const open  = ref(false)
 
 const currentLabel = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? 'fig')
 
-// Debounced fetch against /api/search
 const results = ref<Array<{ key: string; label: string }>>([])
 let debounceTimer: ReturnType<typeof setTimeout> | null = null
 

@@ -1,7 +1,7 @@
 <template>
   <div class="card-inner">
     <div class="axis-bar"></div>
-    <div class="lab">Things that secretly love</div>
+    <div class="lab">{{ $t('orbit.eyebrow') }}</div>
     <div class="serif" style="font-style:italic;font-size:60px;line-height:.82;margin:4px 0 16px">{{ label }}</div>
     <div style="flex:1;display:flex;flex-direction:column">
       <div
@@ -19,7 +19,7 @@
     </div>
     <div style="display:flex;align-items:baseline;justify-content:space-between;border-top:1px solid var(--line);padding-top:13px">
       <span class="serif" style="font-size:23px">Mingo</span>
-      <span class="serif" style="font-style:italic;font-size:13px;color:var(--soft)">flavors that mingle</span>
+      <span class="serif" style="font-style:italic;font-size:13px;color:var(--soft)">{{ $t('brand.tagline') }}</span>
     </div>
   </div>
 </template>

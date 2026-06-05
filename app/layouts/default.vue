@@ -4,12 +4,13 @@
       <div class="topbar-in m-head">
         <div class="m-brand">
           <NuxtLink to="/" class="m-wm" style="text-decoration:none;color:inherit">Mingo</NuxtLink>
-          <span class="m-tag">flavors that mingle</span>
+          <span class="m-tag">{{ $t('brand.tagline') }}</span>
         </div>
         <SeedSearch v-if="route.name !== 'index'" />
         <nav class="m-nav">
-          <a role="button" tabindex="0" @click="mingo.replay()" @keydown.enter="mingo.replay()">↺ First run</a>
-          <span class="btn fill" style="padding:9px 18px;font-size:14px">Get the app</span>
+          <a role="button" tabindex="0" @click="mingo.replay()" @keydown.enter="mingo.replay()">{{ $t('nav.firstRun') }}</a>
+          <button class="btn" style="padding:0 8px;font-size:13px;border:1.5px solid var(--line-2);background:transparent" @click="toggleLocale">{{ $t('nav.langSwitch') }}</button>
+          <span class="btn fill" style="padding:9px 18px;font-size:14px">{{ $t('nav.getApp') }}</span>
         </nav>
       </div>
     </div>
@@ -20,8 +21,13 @@
 </template>
 
 <script setup lang="ts">
-const route = useRoute()
-const mingo = useMingo()
+const route  = useRoute()
+const mingo  = useMingo()
+const { locale, setLocale } = useI18n()
+
+function toggleLocale() {
+  setLocale(locale.value === 'en' ? 'pt-BR' : 'en')
+}
 </script>
 
 <style scoped>

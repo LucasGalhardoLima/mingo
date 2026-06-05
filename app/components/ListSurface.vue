@@ -2,7 +2,7 @@
   <div class="surface-mobile">
     <Notice />
     <div class="ed-eyebrow">
-      <span class="lab">Things that secretly love</span>
+      <span class="lab">{{ $t('orbit.eyebrow') }}</span>
     </div>
     <div class="ed-seed live-pop" :key="mingo.seedKey.value" style="margin-bottom:14px">
       {{ seedLabel }}
@@ -22,7 +22,7 @@
         <div class="row-top">
           <span class="rn">{{ n.name }}</span>
           <span class="rp">
-            <span v-if="i === 0" class="fit">fits</span>
+            <span v-if="i === 0" class="fit">{{ $t('list.fits') }}</span>
             {{ n.pct }}%
           </span>
         </div>
@@ -38,8 +38,8 @@
     <div style="margin-top:16px">
       <WaitlistBand v-if="showWaitlist" />
       <div v-else class="btn-row">
-        <button class="btn" @click="mingo.openShare()">↑ Share</button>
-        <button class="btn fill">Get the app →</button>
+        <button class="btn" @click="mingo.openShare()">{{ $t('list.share') }}</button>
+        <button class="btn fill">{{ $t('list.getApp') }}</button>
       </div>
     </div>
   </div>

@@ -3,10 +3,12 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
+
 useSeoMeta({
-  title: 'Mingo — flavors that mingle',
-  description: 'Type a seed ingredient and see the things that secretly love it. Free, no account.',
-  ogTitle: 'Mingo — flavors that mingle',
-  ogDescription: 'Discover surprising flavor pairings powered by aroma science.',
+  title:         () => t('seo.index.title'),
+  description:   () => t('seo.index.description'),
+  ogTitle:       () => t('seo.index.ogTitle'),
+  ogDescription: () => t('seo.index.ogDescription'),
 })
 </script>

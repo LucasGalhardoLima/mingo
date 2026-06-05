@@ -1,0 +1,94 @@
+{
+  "brand": {
+    "tagline": "sabores que se misturam"
+  },
+  "nav": {
+    "firstRun": "↺ Início",
+    "getApp": "Baixar o app",
+    "langSwitch": "EN"
+  },
+  "hero": {
+    "eyebrow": "descubra",
+    "heading": "O que ama secretamente",
+    "blank": "___",
+    "headingQ": "?",
+    "subheading": "Duas lentes: o que as receitas sempre souberam · o que a química dos aromas acabou de revelar."
+  },
+  "orbit": {
+    "eyebrow": "Coisas que amam secretamente",
+    "seedLabel": "ingrediente",
+    "rings": {
+      "strong": "forte",
+      "good": "bom",
+      "stretch": "leve"
+    },
+    "ranked": "Ordenado",
+    "recipePairing": "combinação de receitas",
+    "aromaMatch": "combinação aromática",
+    "axis": {
+      "whole": "fresco",
+      "intense": "intenso"
+    },
+    "shareGenome": "↑ Compartilhar genoma",
+    "why": "por quê"
+  },
+  "lens": {
+    "classic": "Clássico",
+    "surprising": "Surpreendente"
+  },
+  "list": {
+    "fits": "encaixa",
+    "share": "↑ Compartilhar",
+    "getApp": "Baixar o app →"
+  },
+  "waitlist": {
+    "success": "Você está na lista ✦",
+    "heading": "Quer isso para toda a sua cozinha?",
+    "subheading": "Substituições, despensa e metas de saúde — baixe o app.",
+    "placeholder": "seu e-mail",
+    "loading": "…",
+    "join": "Entrar →",
+    "error": "Algo deu errado — tente novamente."
+  },
+  "share": {
+    "close": "Fechar",
+    "heading": "Compartilhar genoma",
+    "description": "Exporta em 4:5 para stories e posts. Sem fotos — texto e eixo fazem o trabalho.",
+    "style": "Estilo",
+    "download": "⤓ Baixar imagem",
+    "copied": "Copiado!",
+    "copyLink": "Copiar link",
+    "post": "Postar →",
+    "cards": {
+      "poster": "Pôster",
+      "editorial": "Editorial",
+      "orbit": "Órbita"
+    },
+    "poster": {
+      "neverGuess": "Nunca daria para imaginar."
+    }
+  },
+  "notice": {
+    "dismiss": "Dispensar"
+  },
+  "search": {
+    "staple": "básico"
+  },
+  "orbit_card": {
+    "closerStronger": "mais perto = mais forte"
+  },
+  "seo": {
+    "index": {
+      "title": "Mingo — sabores que se misturam",
+      "description": "Digite um ingrediente e veja o que secretamente o ama. Grátis, sem conta.",
+      "ogTitle": "Mingo — sabores que se misturam",
+      "ogDescription": "Descubra combinações surpreendentes de sabores com base na ciência dos aromas."
+    },
+    "genome": {
+      "title": "{label} — Mingo",
+      "description": "O que ama secretamente {label}? Descubra combinações de sabores com base na ciência dos aromas.",
+      "ogTitle": "Genoma de {label} — Mingo",
+      "ogDescription": "O que ama secretamente {label}? Veja as principais combinações clássicas e surpreendentes."
+    }
+  }
+}

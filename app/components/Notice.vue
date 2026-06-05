@@ -1,7 +1,7 @@
 <template>
   <div v-if="mingo.notice.value" class="notice">
     <span>{{ mingo.notice.value }}</span>
-    <button aria-label="Dismiss" @click="mingo.clearNotice()">✕</button>
+    <button :aria-label="$t('notice.dismiss')" @click="mingo.clearNotice()">✕</button>
   </div>
 </template>
 

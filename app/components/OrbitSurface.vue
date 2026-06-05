@@ -3,7 +3,7 @@
     <div style="text-align:center;margin-bottom:10px">
       <Notice />
       <div class="ed-eyebrow" style="justify-content:center">
-        <span class="lab">Things that secretly love</span>
+        <span class="lab">{{ $t('orbit.eyebrow') }}</span>
       </div>
     </div>
 
@@ -16,7 +16,6 @@
           @mouseenter="hovered = true"
           @mouseleave="hovered = false; mingo.sel.value = null"
         >
-          <!-- Three independent spinners — one per ring, each at its own speed -->
           <div
             v-for="(ringNodes, r) in nodeGroups"
             :key="r"
@@ -35,14 +34,13 @@
             />
           </div>
 
-          <!-- Static: ring labels, seed disc, why popover -->
-          <span class="ringlab" :style="{ left: `${(230 - RINGS[0] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[0] * 0.866) / 460 * 100}%` }">strong</span>
-          <span class="ringlab" :style="{ left: `${(230 - RINGS[1] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[1] * 0.866) / 460 * 100}%` }">good</span>
-          <span class="ringlab" :style="{ left: `${(230 - RINGS[2] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[2] * 0.866) / 460 * 100}%` }">stretch</span>
+          <span class="ringlab" :style="{ left: `${(230 - RINGS[0] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[0] * 0.866) / 460 * 100}%` }">{{ $t('orbit.rings.strong') }}</span>
+          <span class="ringlab" :style="{ left: `${(230 - RINGS[1] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[1] * 0.866) / 460 * 100}%` }">{{ $t('orbit.rings.good') }}</span>
+          <span class="ringlab" :style="{ left: `${(230 - RINGS[2] * 0.5) / 460 * 100}%`, top: `${(230 - RINGS[2] * 0.866) / 460 * 100}%` }">{{ $t('orbit.rings.stretch') }}</span>
 
           <div class="seed live-pop" :key="mingo.seedKey.value">
             <span class="nm" :style="{ fontSize: seedFontSize }">{{ seedLabel }}</span>
-            <span class="lb">seed</span>
+            <span class="lb">{{ $t('orbit.seedLabel') }}</span>
           </div>
 
           <div
@@ -53,7 +51,7 @@
               top:  `${(activeRotated.y - 26) / 460 * 100}%`,
             }"
           >
-            <div class="wh">{{ lensLabel }} · why</div>
+            <div class="wh">{{ lensLabel }} · {{ $t('orbit.why') }}</div>
             <div class="wt">{{ activeRotated.why }}.</div>
           </div>
         </div>
@@ -63,7 +61,7 @@
       <div style="display:flex;flex-direction:column;gap:16px">
         <Lens />
         <div class="lab" style="display:flex;justify-content:space-between">
-          <span>Ranked · {{ mingo.lens.value === 'classic' ? 'recipe pairing' : 'aroma match' }}</span>
+          <span>{{ $t('orbit.ranked') }} · {{ mingo.lens.value === 'classic' ? $t('orbit.recipePairing') : $t('orbit.aromaMatch') }}</span>
           <span style="color:var(--ax-r)">{{ lensLabel.toLowerCase() }}</span>
         </div>
         <div class="rows anim-list" :key="`${mingo.seedKey.value}-${mingo.lens.value}`">
@@ -90,10 +88,10 @@
         </div>
         <hr class="hair" />
         <div class="axisleg">
-          <span>whole</span><span class="axisbar"></span><span>intense</span>
+          <span>{{ $t('orbit.axis.whole') }}</span><span class="axisbar"></span><span>{{ $t('orbit.axis.intense') }}</span>
         </div>
         <WaitlistBand v-if="showWaitlist" />
-        <button v-else class="btn" @click="mingo.openShare()">↑ Share this genome</button>
+        <button v-else class="btn" @click="mingo.openShare()">{{ $t('orbit.shareGenome') }}</button>
       </div>
     </div>
   </div>
@@ -104,12 +102,13 @@ import { FLAVORS } from '~~/shared/flavors'
 import { layout, RINGS, fillClass, seedKeyFor, bucket } from '~~/shared/layout'
 import type { LayoutNode } from '~~/shared/layout'
 
+const { t } = useI18n()
 const mingo = useMingo()
 
 const WAITLIST_AFTER = 3
 
-const matches   = computed(() => mingo.genome.value?.[mingo.lens.value] ?? FLAVORS[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
-const nodes     = computed(() => layout(matches.value))
+const matches    = computed(() => mingo.genome.value?.[mingo.lens.value] ?? FLAVORS[mingo.seedKey.value]?.[mingo.lens.value] ?? [])
+const nodes      = computed(() => layout(matches.value))
 const railItems  = computed(() => nodes.value)
 const seedLabel    = computed(() => mingo.genome.value?.label ?? FLAVORS[mingo.seedKey.value]?.label ?? '')
 const seedFontSize = computed(() => {
@@ -118,12 +117,10 @@ const seedFontSize = computed(() => {
   if (len <= 9) return '24px'
   return '19px'
 })
-const lensLabel    = computed(() => mingo.lens.value === 'classic' ? 'Classic' : 'Surprising')
+const lensLabel    = computed(() => mingo.lens.value === 'classic' ? t('lens.classic') : t('lens.surprising'))
 const showWaitlist = computed(() => mingo.explores.value >= WAITLIST_AFTER)
 
-// ── Per-ring orbital speeds (inner = fastest, like Kepler) ────────────────────
-const SPEEDS = [0.20, 0.133, 0.10] // °/frame → 30 s / 45 s / 60 s per revolution
-
+const SPEEDS = [0.20, 0.133, 0.10]
 const angles  = ref([0, 0, 0])
 const hovered = ref(false)
 let rafId: number | null = null
@@ -145,7 +142,6 @@ onMounted(() => {
 })
 onUnmounted(() => { if (rafId !== null) cancelAnimationFrame(rafId) })
 
-// Nodes grouped by which ring they sit on
 const nodeGroups = computed(() => {
   const groups: Array<Array<{ node: LayoutNode; idx: number }>> = [[], [], []]
   nodes.value.forEach((node, idx) => {
@@ -155,7 +151,6 @@ const nodeGroups = computed(() => {
   return groups
 })
 
-// Why-popover position adjusted for the ring-specific rotation angle
 const activeRotated = computed(() => {
   if (!mingo.sel.value) return null
   const node = nodes.value.find(n => n.name === mingo.sel.value)

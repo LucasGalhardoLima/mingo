@@ -1,30 +1,27 @@
 <template>
   <div class="overlay-backdrop" @click="mingo.closeShare()" @keydown.escape="mingo.closeShare()">
     <div class="overlay-panel" @click.stop>
-      <button class="close-btn" aria-label="Close" @click="mingo.closeShare()">✕</button>
+      <button class="close-btn" :aria-label="$t('share.close')" @click="mingo.closeShare()">✕</button>
 
-      <!-- Live preview card -->
       <div class="card-frame" style="width:360px;height:450px;flex:0 0 auto">
         <div class="card-inner-wrap" style="width:360px;height:450px">
           <component :is="activeCard" :seed-key="seedKey" :lens="lens" />
         </div>
       </div>
 
-      <!-- Controls -->
       <div class="controls">
         <div>
-          <div class="lab" style="color:var(--ax-r)">Share this genome</div>
+          <div class="lab" style="color:var(--ax-r)">{{ $t('share.heading') }}</div>
           <div class="serif" style="font-size:27px;font-style:italic;line-height:1.08;margin:6px 0 4px">
             {{ label }} · {{ lensWord }}
           </div>
           <p class="muted" style="margin:0;font-size:14px">
-            Exports at 4:5 for stories &amp; posts. No photos — type &amp; the axis do the work.
+            {{ $t('share.description') }}
           </p>
         </div>
 
-        <!-- Style picker -->
         <div>
-          <div class="lab" style="margin-bottom:9px">Style</div>
+          <div class="lab" style="margin-bottom:9px">{{ $t('share.style') }}</div>
           <div style="display:flex;gap:12px">
             <button
               v-for="c in CARDS"
@@ -33,7 +30,6 @@
               :class="{ active: pick === c.key }"
               @click="pick = c.key"
             >
-              <!-- Thumbnail: scaled down card -->
               <div style="width:72px;height:90px;position:relative;overflow:hidden;border-radius:7px">
                 <div style="width:360px;height:450px;transform:scale(0.2);transform-origin:top left;position:absolute">
                   <component :is="c.component" :seed-key="seedKey" :lens="lens" />
@@ -44,12 +40,11 @@
           </div>
         </div>
 
-        <!-- Actions -->
         <div style="display:flex;flex-direction:column;gap:9px">
-          <button class="btn fill" @click="download">⤓ Download image</button>
+          <button class="btn fill" @click="download">{{ $t('share.download') }}</button>
           <div class="btn-row">
-            <button class="btn" @click="copyLink">{{ copied ? 'Copied!' : 'Copy link' }}</button>
-            <button class="btn" @click="share">Post →</button>
+            <button class="btn" @click="copyLink">{{ copied ? $t('share.copied') : $t('share.copyLink') }}</button>
+            <button class="btn" @click="share">{{ $t('share.post') }}</button>
           </div>
         </div>
       </div>
@@ -64,24 +59,24 @@ import ShareEditorial from './ShareEditorial.vue'
 import ShareOrbit     from './ShareOrbit.vue'
 import SharePoster    from './SharePoster.vue'
 
+const { t } = useI18n()
 const mingo = useMingo()
-const seedKey = computed(() => mingo.share.value!.seedKey)
-const lens    = computed(() => mingo.share.value!.lens)
-const label   = computed(() => FLAVORS[seedKey.value]?.label ?? seedKey.value)
-const lensWord = computed(() => lens.value === 'classic' ? 'classic' : 'surprising')
 
-const CARDS = [
-  { key: 'poster',    name: 'Poster',    component: SharePoster },
-  { key: 'editorial', name: 'Editorial', component: ShareEditorial },
-  { key: 'orbit',     name: 'Orbit',     component: ShareOrbit },
-]
+const seedKey  = computed(() => mingo.share.value!.seedKey)
+const lens     = computed(() => mingo.share.value!.lens)
+const label    = computed(() => FLAVORS[seedKey.value]?.label ?? seedKey.value)
+const lensWord = computed(() => lens.value === 'classic' ? t('lens.classic').toLowerCase() : t('lens.surprising').toLowerCase())
+
+const CARDS = computed(() => [
+  { key: 'poster',    name: t('share.cards.poster'),    component: SharePoster },
+  { key: 'editorial', name: t('share.cards.editorial'), component: ShareEditorial },
+  { key: 'orbit',     name: t('share.cards.orbit'),     component: ShareOrbit },
+])
 
 const pick   = ref('poster')
 const copied = ref(false)
 
-const activeCard = computed(() => CARDS.find(c => c.key === pick.value)!.component)
-
-const cardEl = ref<HTMLElement | null>(null)
+const activeCard = computed(() => CARDS.value.find(c => c.key === pick.value)!.component)
 
 async function download() {
   if (!import.meta.client) return
@@ -111,15 +106,9 @@ async function share() {
   }
 }
 
-onMounted(() => {
-  document.addEventListener('keydown', onKey)
-})
-onBeforeUnmount(() => {
-  document.removeEventListener('keydown', onKey)
-})
-function onKey(e: KeyboardEvent) {
-  if (e.key === 'Escape') mingo.closeShare()
-}
+onMounted(() => { document.addEventListener('keydown', onKey) })
+onBeforeUnmount(() => { document.removeEventListener('keydown', onKey) })
+function onKey(e: KeyboardEvent) { if (e.key === 'Escape') mingo.closeShare() }
 </script>
 
 <style scoped>

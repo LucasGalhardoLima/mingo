@@ -1,10 +1,10 @@
 <template>
   <div class="cs">
     <button :aria-pressed="mingo.lens.value === 'classic'" @click="mingo.swapLens('classic')">
-      <span class="d ax-g"></span>Classic
+      <span class="d ax-g"></span>{{ $t('lens.classic') }}
     </button>
     <button :aria-pressed="mingo.lens.value === 'surprising'" @click="mingo.swapLens('surprising')">
-      <span class="d ax-r"></span>Surprising
+      <span class="d ax-r"></span>{{ $t('lens.surprising') }}
     </button>
   </div>
 </template>

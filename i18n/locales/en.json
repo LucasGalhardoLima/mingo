@@ -1,0 +1,94 @@
+{
+  "brand": {
+    "tagline": "flavors that mingle"
+  },
+  "nav": {
+    "firstRun": "↺ First run",
+    "getApp": "Get the app",
+    "langSwitch": "PT"
+  },
+  "hero": {
+    "eyebrow": "find out",
+    "heading": "What secretly loves",
+    "blank": "___",
+    "headingQ": "?",
+    "subheading": "Two lenses: what recipes always knew · what aroma chemistry just revealed."
+  },
+  "orbit": {
+    "eyebrow": "Things that secretly love",
+    "seedLabel": "seed",
+    "rings": {
+      "strong": "strong",
+      "good": "good",
+      "stretch": "stretch"
+    },
+    "ranked": "Ranked",
+    "recipePairing": "recipe pairing",
+    "aromaMatch": "aroma match",
+    "axis": {
+      "whole": "whole",
+      "intense": "intense"
+    },
+    "shareGenome": "↑ Share this genome",
+    "why": "why"
+  },
+  "lens": {
+    "classic": "Classic",
+    "surprising": "Surprising"
+  },
+  "list": {
+    "fits": "fits",
+    "share": "↑ Share",
+    "getApp": "Get the app →"
+  },
+  "waitlist": {
+    "success": "You're on the list ✦",
+    "heading": "Want this for your whole kitchen?",
+    "subheading": "Swaps, pantry & health goals — get the app.",
+    "placeholder": "your email",
+    "loading": "…",
+    "join": "Join →",
+    "error": "Something went wrong — try again."
+  },
+  "share": {
+    "close": "Close",
+    "heading": "Share this genome",
+    "description": "Exports at 4:5 for stories & posts. No photos — type & the axis do the work.",
+    "style": "Style",
+    "download": "⤓ Download image",
+    "copied": "Copied!",
+    "copyLink": "Copy link",
+    "post": "Post →",
+    "cards": {
+      "poster": "Poster",
+      "editorial": "Editorial",
+      "orbit": "Orbit"
+    },
+    "poster": {
+      "neverGuess": "You'd never guess."
+    }
+  },
+  "notice": {
+    "dismiss": "Dismiss"
+  },
+  "search": {
+    "staple": "staple"
+  },
+  "orbit_card": {
+    "closerStronger": "closer = stronger"
+  },
+  "seo": {
+    "index": {
+      "title": "Mingo — flavors that mingle",
+      "description": "Type a seed ingredient and see the things that secretly love it. Free, no account.",
+      "ogTitle": "Mingo — flavors that mingle",
+      "ogDescription": "Discover surprising flavor pairings powered by aroma science."
+    },
+    "genome": {
+      "title": "{label} — Mingo",
+      "description": "What secretly loves {label}? Discover flavor pairings powered by aroma science.",
+      "ogTitle": "{label} genome — Mingo",
+      "ogDescription": "What secretly loves {label}? See the top classic & surprising pairings."
+    }
+  }
+}

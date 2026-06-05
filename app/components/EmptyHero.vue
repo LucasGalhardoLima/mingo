@@ -1,12 +1,12 @@
 <template>
   <div style="text-align:center;padding:18px 0 6px">
-    <div class="lab" style="margin-bottom:8px">find out</div>
+    <div class="lab" style="margin-bottom:8px">{{ $t('hero.eyebrow') }}</div>
     <div class="serif" style="font-size:clamp(38px,6vw,58px);line-height:.94;font-style:italic;margin:0 auto 14px;max-width:640px">
-      What secretly loves <span style="font-style:normal">___</span>?
+      {{ $t('hero.heading') }} <span style="font-style:normal">{{ $t('hero.blank') }}</span>{{ $t('hero.headingQ') }}
     </div>
 
     <p class="muted" style="font-size:15px;margin:0 auto 18px;max-width:420px;line-height:1.5">
-      Two lenses: what recipes always knew · what aroma chemistry just revealed.
+      {{ $t('hero.subheading') }}
     </p>
 
     <div class="teaser" style="margin-bottom:24px;min-height:22px">
@@ -25,8 +25,6 @@
 </template>
 
 <script setup lang="ts">
-const mingo = useMingo()
-
 const TEASERS = [
   { seed: 'Fig',        match: 'Blue cheese', note: 'shares ~12 aroma compounds · honeyed funk' },
   { seed: 'Miso',       match: 'Caramel',     note: 'shares ~9 compounds · Maillard depth' },
