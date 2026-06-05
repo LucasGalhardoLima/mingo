@@ -6,7 +6,7 @@
       <div class="serif" style="font-size:38px;color:var(--ax-r);margin:2px 0">×</div>
       <div class="serif" style="font-style:italic;font-size:50px;line-height:.9">{{ top.name }}</div>
       <div style="font-size:14px;color:var(--paper);opacity:.7;max-width:220px;margin:18px auto 0;line-height:1.35">
-        They {{ cleanWhy }}. {{ $t('share.poster.neverGuess') }}
+        {{ sentence }}. {{ $t('share.poster.neverGuess') }}
       </div>
     </div>
     <div style="display:flex;justify-content:space-between;align-items:baseline">
@@ -19,14 +19,23 @@
 <script setup lang="ts">
 const props = defineProps<{ seedKey: string; lens: 'classic' | 'surprising' }>()
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 const localeFlavors = useLocaleFlavors()
 const label    = computed(() => localeFlavors.value[props.seedKey]?.label ?? props.seedKey)
 const lensWord = computed(() => props.lens === 'classic' ? t('lens.classic').toLowerCase() : t('lens.surprising').toLowerCase())
 const top      = computed(() => localeFlavors.value[props.seedKey]![props.lens][0]!)
-const cleanWhy = computed(() =>
-  top.value.why.replace(/^shares?\s/i, 'share ').replace(/^paired.*recipes\s·?\s?/i, 'pair constantly — ')
-)
+const sentence = computed(() => {
+  const why = top.value.why
+  if (locale.value.startsWith('pt')) {
+    // PT why already starts with "compartilha …" or "combinado em …" — capitalise first letter
+    return why.charAt(0).toUpperCase() + why.slice(1)
+  }
+  // EN: strip "shares" / "paired in … recipes ·" prefix and prepend "They"
+  const clean = why
+    .replace(/^shares?\s/i, 'share ')
+    .replace(/^paired.*recipes\s·?\s?/i, 'pair constantly — ')
+  return `They ${clean}`
+})
 </script>
 
 <style scoped>

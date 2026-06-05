@@ -62,6 +62,7 @@
       "editorial": "Editorial",
       "orbit": "Orbit"
     },
+    "orbitTitle": "{label}'s genome · {lensWord}",
     "poster": {
       "pairing": "pairing",
       "neverGuess": "You'd never guess."

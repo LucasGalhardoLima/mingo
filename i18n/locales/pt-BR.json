@@ -62,6 +62,7 @@
       "editorial": "Editorial",
       "orbit": "Órbita"
     },
+    "orbitTitle": "Genoma de {label} · {lensWord}",
     "poster": {
       "pairing": "combinação",
       "neverGuess": "Nunca daria para imaginar."

@@ -1,6 +1,6 @@
 <template>
   <div class="card-inner">
-    <div class="lab">{{ label }}'s genome · {{ lensWord }}</div>
+    <div class="lab">{{ $t('share.orbitTitle', { label, lensWord }) }}</div>
     <div style="position:relative;flex:1;margin:4px 0">
       <svg viewBox="0 0 360 352" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible">
         <g fill="none" stroke="var(--ink)" stroke-opacity="0.16" stroke-dasharray="2 7">
